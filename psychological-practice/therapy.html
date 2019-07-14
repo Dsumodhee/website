@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+    <title>Psychological Practice - HTML5 template for Psycholigists</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic,900,900italic" />
+    <link rel="stylesheet" type="text/css" href="_assets/_libs/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="_assets/_libs/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="_assets/_libs/pikaday/css/pikaday.css" />
+    <link rel="stylesheet" type="text/css" href="_assets/_css/style.css" />
+
+</head>
+<body>
+
+    <div id="loader">
+
+        <div class="loader-spinner">
+        </div>
+
+    </div>
+
+    <div id="schedule-popup">
+
+        <div class="schedule-popup-background">
+        </div>
+
+        <div class="schedule-popup-content">
+
+            <i class="fa fa-umbrella background-icon"></i>
+            <i class="fa fa-times close-icon"></i>
+
+            <form method="post" class="form form-box" data-title="New contact form from your website" data-client-name-field="Name" data-client-email-field="E-mail">
+
+                <input type="text" name="Name" class="form-field" placeholder="Full name..." />
+
+                <input type="text" name="E-mail" class="form-field half-width half-width-left" placeholder="E-mail address..." />
+                <input type="text" name="Phone number" class="form-field half-width" placeholder="Phone number..." data-required="no" />
+
+                <input type="text" name="Date of visit" class="form-field is-datepicker" placeholder="Date of visit..." readonly />
+                <select name="Therapy" class="form-field">
+
+                    <option value="">-- Choose the therapy --</option>
+                    <option value="Therapy for Couples">Therapy for Couples</option>
+                    <option value="Therapy for Seniors">Therapy for Seniors</option>
+                    <option value="Individual therapy">Individual therapy</option>
+                    <option value="Therapy for Childs">Therapy for Childs</option>
+
+                </select>
+
+                <div class="form-field checkbox-box" data-checked="no" data-field-name="I agree with Terms and Conditions and I've read and agree Privacy Policy" data-value-if-checked="Yes">
+
+                    <span class="checkbox"></span>
+                    <p>I agree with <a href="#">Terms and Conditions</a> and I've read and agree <a href="#">Privacy Policy</a>.</p>
+
+                </div>
+
+                <button type="button" class="button form-send">Submit now! <i class="fa fa-long-arrow-right"></i></button>
+
+                <div class="thanks-lay">
+
+                    <div class="thanks-lay-helper">
+                    </div>
+
+                    <div class="thanks-lay-content">
+
+                        <div class="thanks-lay-content-sending">
+
+                            <div class="thanks-lay-icon"><i class="fa fa-cog fa-spin"></i></div>
+                            Sending...
+
+                        </div>
+
+                        <div class="thanks-lay-content-sent">
+
+                            <div class="thanks-lay-icon"><i class="fa fa-check"></i></div>
+                            Your message has been sent, thank you!
+
+                            <span class="thanks-lay-close">Close this notice</span>
+
+                        </div>
+
+                        <div class="thanks-lay-content-not-sent">
+
+                            <div class="thanks-lay-icon"><i class="fa fa-times"></i></div>
+                            Please try again.
+
+                            <span class="thanks-lay-close">Close this notice</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </form>
+
+            <div class="content">
+
+                <i class="fa fa-paper-plane-o content-icon"></i>
+
+                <h2>Schedule a Visit</h2>
+
+                <p>Nulla vehicula fermentum nulla, a lobortis nisl vestibulum vel. Phasellus eget velit at.</p>
+                <p><strong>Call us:</strong><br /> <a href="#">1-800-123-4567</a></p>
+                <p><strong>Send an email:</strong><br /> <a href="#">monica.wayne@example.com</a></p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <header>
+
+        <div class="top">
+
+            <div class="center">
+
+                <div class="top-elements-wrapper">
+
+                    <div class="element">
+
+                        <i class="fa fa-phone"></i> <a href="#">1-800-123-4567</a>
+
+                    </div>
+
+                    <div class="element">
+
+                        <i class="fa fa-envelope-o"></i> <a href="#">monica.wayne@example.com</a>
+
+                    </div>
+
+                    <div class="element element-languages">
+
+                        <span class="container">
+
+                            <i class="fa fa-globe"></i>
+                            <span class="current-language">English</span>
+
+                        </span>
+
+                        <ul class="available-languages animated animated-speed fadeInDown">
+
+                            <li><a href="#">French</a></li>
+                            <li><a href="#">Spanish</a></li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="element element-social-icons">
+
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="bottom">
+
+            <div class="center">
+
+                <div class="logo">
+
+                    <a href="/index.html"><img src="_assets/_img/logo.png" alt="Psychological Practice HTML5 Template" /></a>
+
+                </div>
+
+                <nav class="top-menu">
+
+                    <ul class="menu">
+
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/therapies.html">Therapies</a></li>
+                        <li class="with-submenu active">
+
+                            <a href="/price-list.html">Pages <i class="fa fa-caret-down"></i></a>
+                            <ul class="sub-menu animated animated-speed fadeInDown">
+
+                                <li><a href="/therapy.html">Single therapy</a></li>
+                                <li><a href="/price-list.html">Price list</a></li>
+                                <li><a href="/blog.html">Blog</a></li>
+                                <li><a href="/blog-single.html">Single blog post</a></li>
+                                <li class="with-submenu">
+
+                                    <a href="#"><i class="fa fa-caret-left"></i> Dropdown example</a>
+                                    <ul class="sub-menu">
+
+                                        <li><a href="#">Dropdown subpage 1</a></li>
+                                        <li><a href="#">Dropdown subpage 2</a></li>
+                                        <li><a href="#">Dropdown subpage 3</a></li>
+
+                                    </ul>
+
+                                </li>
+                                <li><a href="/404-page.html">404 page</a></li>
+
+                            </ul>
+
+                        </li>
+                        <li><a href="/about-me.html">About me</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+
+                    </ul>
+
+                </nav>
+
+                <div class="responsive-menu-button"><i class="fa fa-bars"></i></div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <div class="wrapper">
+
+        <section class="image-header">
+
+            <img src="_assets/_img/image.png" alt="Image" class="image-data-for-parent" />
+            <div class="content">
+
+                <div class="center">
+
+                    <h3>Therapy for Couples</h3>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="tabs">
+
+            <div class="tabs-selectors">
+
+                <div class="center">
+
+                    <ul class="tabs-selectors">
+
+                        <li class="active" data-tab-id="general-informations">General informations</li>
+                        <li data-tab-id="important-documents">Important documents</li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="center tabs-contents">
+
+                <article data-tab-id="general-informations">
+
+                    <div class="heading">
+
+                        <div class="left">
+
+                            <h1>General<br /> informations</h1>
+
+                        </div>
+
+                        <div class="right">
+
+                            <p class="price">Session from <strong>$99</strong></p>
+                            <p><button data-action="show-schedule-popup" class="button">Schedule a Visit</button></p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="service-details">
+
+                        <p>
+
+                            <strong>Doctor:</strong> Martha Wayne, Psy. D.
+                            <span class="divider"></span>
+
+                            <strong>When:</strong> every thursday
+                            <span class="divider"></span>
+
+                            <strong>Where:</strong> 1234 Example, Los Angeles, CA 98765
+
+                        </p>
+
+                    </div>
+
+                    <p>Ut sollicitudin tellus at nisl lacinia rhoncus. Integer imperdiet sit amet massa a vehicula. Nam sit amet laoreet elit. Aliquam ut viverra mi. Nam facilisis lacus et quam auctor suscipit sed vitae erat. Sed eget lacus risus. Nam at sagittis lorem. Morbi tempor suscipit tellus, eget facilisis neque efficitur id. Aenean maximus sem sed gravida tincidunt. Sed tempus nunc eget nisl pretium.</p>
+                    <p>Cras pharetra, est eget tempor rhoncus, nisl elit lobortis tellus, eu euismod tellus odio a neque. Sed placerat quis augue at luctus. Curabitur in est in diam ornare mattis vitae at magna. Etiam tincidunt convallis dictum. Sed vitae magna eu dui dignissim congue at eu urna. In ut ante lorem. Cras eget varius orci.</p>
+
+                    <h2>Doctors</h2>
+
+                    <div class="doctor">
+
+                        <div class="left">
+
+                            <div class="images">
+
+                                <div class="image">
+
+                                    <img src="_assets/_img/image.png" alt="Image" class="image-data-for-parent" />
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <div class="padding">
+
+                                <h3><strong>Monica Wayne</strong><br /> Psy. D.</h3>
+
+                                <p>
+
+                                    <strong>Age:</strong> 34<br />
+                                    <strong>Years of experience:</strong> 12<br />
+                                    <strong>Specialization:</strong> health psychology<br />
+
+                                </p>
+
+                                <p><a href="/about-me.html" class="button button-white"><i class="fa fa-long-arrow-right"></i></a></p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <p>Ut facilisis, diam vitae hendrerit vestibulum, sapien nunc volutpat ipsum, vitae porta metus purus vel nibh. Donec lobortis felis ac imperdiet scelerisque. Pellentesque non ligula vel tellus tristique luctus quis iaculis tortor. Integer lobortis et tellus condimentum pulvinar. Morbi congue velit nec urna molestie, et lacinia ipsum sagittis. Maecenas tincidunt condimentum sem non dapibus. Sed aliquet dignissim massa ac lacinia. Nunc venenatis.</p>
+                    <p>Nulla vitae tincidunt dolor. Morbi pretium lorem quis lacus ultricies, ac bibendum nibh cursus. Donec volutpat dolor ac nibh interdum ornare. In vel pharetra lorem. Suspendisse facilisis efficitur leo ac ullamcorper. Vestibulum porta justo non risus rutrum, sed fringilla orci luctus. Nulla facilisi. Etiam tempus, magna vel ultricies volutpat, nisi nisl fringilla sapien, dignissim pretium purus.</p>
+
+                    <div class="references references-with-button">
+
+                        <div class="reference">
+
+                            <p>Nunc urna tellus, sollicitudin non sollicitudin quis, elementum ac eros. Maecenas lobortis risus nec mauris mattis, et venenatis felis pharetra. Nulla facilisi. In odio nisl, semper sagittis interdum at, facilisis quis massa. Ut in mi eu lacus lacinia vehicula quis nec justo. Nam sed pulvinar ante.</p>
+                            <p class="author"><strong>John Doe</strong>, 2016</p>
+
+                        </div>
+
+                        <div class="more-less-button">
+
+                            <p><a href="/about-me.html#references" class="button">Read more references <i class="fa fa-long-arrow-right"></i></a></p>
+
+                        </div>
+
+                    </div>
+
+                    <h2>Additional informations</h2>
+                    <p>Ut tempus rutrum libero, vulputate commodo turpis laoreet id. Nunc efficitur est vel cursus mollis. Suspendisse mollis convallis orci. Morbi nec est velit. Vivamus sodales, ligula at faucibus maximus, augue felis tincidunt libero, pulvinar dignissim nisi mauris non ligula. Fusce vitae turpis eget turpis ullamcorper imperdiet. Sed velit ligula, ultrices quis est in, efficitur vehicula lorem. Aliquam nulla neque, congue vitae vehicula ut, condimentum et justo.</p>
+
+                </article>
+
+                <article data-tab-id="important-documents">
+
+                    <div class="heading">
+
+                        <div class="left">
+
+                            <h2 class="tab-content-heading">Get important<br /> documents</h2>
+
+                        </div>
+
+                        <div class="right">
+
+                            <p class="price">Session from <strong>$99</strong></p>
+                            <p><button data-action="show-schedule-popup" class="button">Schedule a Visit</button></p>
+
+                        </div>
+
+                    </div>
+
+                    <p>Nulla vitae tincidunt dolor. Morbi pretium lorem quis lacus ultricies, ac bibendum nibh cursus. Donec volutpat dolor ac nibh interdum ornare. In vel pharetra lorem. Suspendisse facilisis efficitur leo ac ullamcorper. Vestibulum porta justo non risus rutrum, sed fringilla orci luctus. Nulla facilisi. Etiam tempus, magna vel ultricies volutpat, nisi nisl fringilla sapien, dignissim pretium purus.</p>
+
+                    <div class="double-content">
+
+                        <div class="left">
+
+                            <div class="document">
+
+                                <i class="fa fa-file-pdf-o background-icon"></i>
+
+                                <div class="padding">
+
+                                    <h3>Our practice guidelines.pdf</h3>
+
+                                    <p>Sed vitae magna eu dui dignissim congue at eu urna. In ut ante lorem. Donec rhoncus lobortis elit, nec gravida eros.</p>
+                                    <p>File size: 32kb.</p>
+                                    <p><a href="#" class="button button-white"><i class="fa fa-download"></i></a></p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <div class="document">
+
+                                <i class="fa fa-file-pdf-o background-icon"></i>
+
+                                <div class="padding">
+
+                                    <h3>Our practice guidelines.pdf</h3>
+
+                                    <p>Sed vitae magna eu dui dignissim congue at eu urna. In ut ante lorem. Donec rhoncus lobortis elit, nec gravida eros.</p>
+                                    <p>File size: 32kb.</p>
+                                    <p><a href="#" class="button button-white"><i class="fa fa-download"></i></a></p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <h2>We are here to help you</h2>
+                    <p>Cras pharetra, est eget tempor rhoncus, nisl elit lobortis tellus, eu euismod tellus odio a neque. Sed placerat quis augue at luctus. Curabitur in est in diam ornare mattis vitae at magna. Etiam tincidunt convallis dictum. Sed vitae magna eu dui dignissim congue at eu urna. In ut ante lorem. Cras eget varius orci.</p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <section class="call-to-action">
+
+            <img src="_assets/_img/image.png" alt="Image" class="image-data-for-parent" />
+
+            <div class="middle-helper">
+            </div>
+
+            <div class="heading-slider-slide-content">
+
+                <div class="center">
+
+                    <h2>Friendly atmosphere<br /> for all of your thoughts</h2>
+
+                    <p>Find out more about us</p>
+                    <p><a href="/about-me.html" class="button button-white"><i class="fa fa-long-arrow-right"></i></a></p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer>
+
+            <div class="center">
+
+                <div class="column">
+
+                    <h3>Therapies</h3>
+                    <ul class="menu">
+
+                        <li><a href="/therapy.html">Therapy for Couples</a></li>
+                        <li><a href="/therapy.html">Therapy for Seniors</a></li>
+                        <li><a href="/therapy.html">Therapy for Childrens</a></li>
+                        <li><a href="/therapy.html">Individual Therapy</a></li>
+
+                    </ul>
+
+                </div>
+
+                <div class="column">
+
+                    <h3>Other pages</h3>
+                    <ul class="menu">
+
+                        <li><a href="/index.html">Home page</a></li>
+                        <li><a href="/about-me.html">About me</a></li>
+                        <li><a href="/blog.html">Recent news</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+
+                    </ul>
+
+                </div>
+
+                <div class="column">
+
+                    <h3>Contact us</h3>
+
+                    <p><a href="mailto:monica.wayne@example.com">monica.wayne@example.com</a></p>
+                    <p>1234 Example,<br /> Los Angeles, CA 98765</p>
+
+                </div>
+
+                <div class="column">
+
+                    <h2><a href="tel:18001234567">1-800-123-4567</a></h2>
+
+                    <ul class="social-media">
+
+                        <li><a href="#" class="social-icon"><i class="fa fa-facebook-square"></i></a></li>
+                        <li><a href="#" class="social-icon"><i class="fa fa-twitter-square"></i></a></li>
+                        <li><a href="#" class="social-icon"><i class="fa fa-google-plus-square"></i></a></li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+    <script type="text/javascript" src="_assets/_libs/jquery.js"></script>
+    <script type="text/javascript" src="_assets/_libs/moment.js"></script>
+    <script type="text/javascript" src="_assets/_libs/pikaday/pikaday.js"></script>
+    <script type="text/javascript" src="_assets/_js/functions.js"></script>
+
+</body>
+</html>

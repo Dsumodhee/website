@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+    <title>Psychological Practice - HTML5 template for Psycholigists</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic,900,900italic" />
+    <link rel="stylesheet" type="text/css" href="_assets/_libs/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="_assets/_libs/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="_assets/_libs/pikaday/css/pikaday.css" />
+    <link rel="stylesheet" type="text/css" href="_assets/_css/style.css" />
+
+</head>
+<body>
+
+    <div id="loader">
+
+        <div class="loader-spinner">
+        </div>
+
+    </div>
+
+    <div id="schedule-popup">
+
+        <div class="schedule-popup-background">
+        </div>
+
+        <div class="schedule-popup-content">
+
+            <i class="fa fa-umbrella background-icon"></i>
+            <i class="fa fa-times close-icon"></i>
+
+            <form method="post" class="form form-box" data-title="New contact form from your website" data-client-name-field="Name" data-client-email-field="E-mail">
+
+                <input type="text" name="Name" class="form-field" placeholder="Full name..." />
+
+                <input type="text" name="E-mail" class="form-field half-width half-width-left" placeholder="E-mail address..." />
+                <input type="text" name="Phone number" class="form-field half-width" placeholder="Phone number..." data-required="no" />
+
+                <input type="text" name="Date of visit" class="form-field is-datepicker" placeholder="Date of visit..." readonly />
+                <select name="Therapy" class="form-field">
+
+                    <option value="">-- Choose the therapy --</option>
+                    <option value="Therapy for Couples">Therapy for Couples</option>
+                    <option value="Therapy for Seniors">Therapy for Seniors</option>
+                    <option value="Individual therapy">Individual therapy</option>
+                    <option value="Therapy for Childs">Therapy for Childs</option>
+
+                </select>
+
+                <div class="form-field checkbox-box" data-checked="no" data-field-name="I agree with Terms and Conditions and I've read and agree Privacy Policy" data-value-if-checked="Yes">
+
+                    <span class="checkbox"></span>
+                    <p>I agree with <a href="#">Terms and Conditions</a> and I've read and agree <a href="#">Privacy Policy</a>.</p>
+
+                </div>
+
+                <button type="button" class="button form-send">Submit now! <i class="fa fa-long-arrow-right"></i></button>
+
+                <div class="thanks-lay">
+
+                    <div class="thanks-lay-helper">
+                    </div>
+
+                    <div class="thanks-lay-content">
+
+                        <div class="thanks-lay-content-sending">
+
+                            <div class="thanks-lay-icon"><i class="fa fa-cog fa-spin"></i></div>
+                            Sending...
+
+                        </div>
+
+                        <div class="thanks-lay-content-sent">
+
+                            <div class="thanks-lay-icon"><i class="fa fa-check"></i></div>
+                            Your message has been sent, thank you!
+
+                            <span class="thanks-lay-close">Close this notice</span>
+
+                        </div>
+
+                        <div class="thanks-lay-content-not-sent">
+
+                            <div class="thanks-lay-icon"><i class="fa fa-times"></i></div>
+                            Please try again.
+
+                            <span class="thanks-lay-close">Close this notice</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </form>
+
+            <div class="content">
+
+                <i class="fa fa-paper-plane-o content-icon"></i>
+
+                <h2>Schedule a Visit</h2>
+
+                <p>Nulla vehicula fermentum nulla, a lobortis nisl vestibulum vel. Phasellus eget velit at.</p>
+                <p><strong>Call us:</strong><br /> <a href="#">1-800-123-4567</a></p>
+                <p><strong>Send an email:</strong><br /> <a href="#">monica.wayne@example.com</a></p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <header>
+
+        <div class="top">
+
+            <div class="center">
+
+                <div class="top-elements-wrapper">
+
+                    <div class="element">
+
+                        <i class="fa fa-phone"></i> <a href="#">1-800-123-4567</a>
+
+                    </div>
+
+                    <div class="element">
+
+                        <i class="fa fa-envelope-o"></i> <a href="#">monica.wayne@example.com</a>
+
+                    </div>
+
+                    <div class="element element-languages">
+
+                        <span class="container">
+
+                            <i class="fa fa-globe"></i>
+                            <span class="current-language">English</span>
+
+                        </span>
+
+                        <ul class="available-languages animated animated-speed fadeInDown">
+
+                            <li><a href="#">French</a></li>
+                            <li><a href="#">Spanish</a></li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="element element-social-icons">
+
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="bottom">
+
+            <div class="center">
+
+                <div class="logo">
+
+                    <a href="/index.html"><img src="_assets/_img/logo.png" alt="Psychological Practice HTML5 Template" /></a>
+
+                </div>
+
+                <nav class="top-menu">
+
+                    <ul class="menu">
+
+                        <li class="active"><a href="/index.html">Home</a></li>
+                        <li><a href="/therapies.html">Therapies</a></li>
+                        <li class="with-submenu">
+
+                            <a href="/price-list.html">Pages <i class="fa fa-caret-down"></i></a>
+                            <ul class="sub-menu animated animated-speed fadeInDown">
+
+                                <li><a href="/therapy.html">Single therapy</a></li>
+                                <li><a href="/price-list.html">Price list</a></li>
+                                <li><a href="/blog.html">Blog</a></li>
+                                <li><a href="/blog-single.html">Single blog post</a></li>
+                                <li class="with-submenu">
+
+                                    <a href="#"><i class="fa fa-caret-left"></i> Dropdown example</a>
+                                    <ul class="sub-menu">
+
+                                        <li><a href="#">Dropdown subpage 1</a></li>
+                                        <li><a href="#">Dropdown subpage 2</a></li>
+                                        <li><a href="#">Dropdown subpage 3</a></li>
+
+                                    </ul>
+
+                                </li>
+                                <li><a href="/404-page.html">404 page</a></li>
+
+                            </ul>
+
+                        </li>
+                        <li><a href="/about-me.html">About me</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+
+                    </ul>
+
+                </nav>
+
+                <div class="responsive-menu-button"><i class="fa fa-bars"></i></div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <div class="wrapper">
+
+        <section class="heading-slider" data-interval="6000">
+
+            <div class="heading-slider-slide">
+
+                <img src="_assets/_img/image.png" alt="Image" class="image-data-for-parent" />
+
+                <div class="middle-helper">
+                </div>
+
+                <div class="heading-slider-slide-content">
+
+                    <div class="center">
+
+                        <h1>Psychological care<br /> at the highest level</h1>
+                        <p><a href="/therapies.html" class="button">Check our offer <i class="fa fa-long-arrow-right"></i></a> <span class="responsive-new-line"></span> or <a href="/about-me.html">find out more about us</a></p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="heading-slider-slide">
+
+                <img src="_assets/_img/image.png" alt="Image" class="image-data-for-parent" />
+
+                <div class="middle-helper">
+                </div>
+
+                <div class="heading-slider-slide-content">
+
+                    <div class="center">
+
+                        <h2 class="heading-slider-title">Full discretion<br /> and the highest standards</h2>
+                        <p><button class="button" data-action="show-schedule-popup">Schedule a Visit <i class="fa fa-long-arrow-right"></i></button></p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="triple-content">
+
+            <div class="center">
+
+                <div class="heading">
+
+                    <h2>Therapies</h2>
+                    <p class="read-more"><a href="/therapies.html" class="more">View all <i class="fa fa-long-arrow-right"></i></a></p>
+
+                </div>
+
+                <div class="left">
+
+                    <div class="images">
+
+                        <div class="image">
+
+                            <img src="_assets/_img/image.png" alt="Image" class="image-data-for-parent" />
+                            <div class="padding">
+
+                                <p class="button-more"><a href="/therapy.html" class="button button-white"><i class="fa fa-long-arrow-right"></i></a></p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="padding">
+
+                        <h4><a href="/therapy.html">Therapy<br /> for Couples</a></h4>
+                        <p>Pellentesque ac lectus nec leo euismod ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit amet risus.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="middle">
+
+                    <div class="images">
+
+                        <div class="image">
+
+                            <img src="_assets/_img/image.png" alt="Image" class="image-data-for-parent" />
+                            <div class="padding">
+
+                                <p class="button-more"><a href="/therapy.html" class="button button-white"><i class="fa fa-long-arrow-right"></i></a></p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="padding">
+
+                        <h4><a href="/therapy.html">Therapy<br /> for Seniors</a></h4>
+                        <p>Ut sem arcu, gravida sit amet dictum et, porttitor sit amet risus. Donec rhoncus lobortis elit, nec gravida eros eleifend in.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="right">
+
+                    <div class="images">
+
+                        <div class="image">
+
+                            <img src="_assets/_img/image.png" alt="Image" class="image-data-for-parent" />
+                            <div class="padding">
+
+                                <p class="button-more"><a href="/therapy.html" class="button button-white"><i class="fa fa-long-arrow-right"></i></a></p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="padding">
+
+                        <h4><a href="/therapy.html">Individual<br /> therapy</a></h4>
+                        <p>Pellentesque ac lectus nec leo euismod ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit amet risus.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="double-content with-background">
+
+            <div class="center">
+
+                <div class="left">
+
+                    <div class="padding-left">
+
+                        <h2>High Qualified Team</h2>
+
+                        <p>Nisl congue varius. Curabitur ullamcorper nibh ut felis ultricies, in auctor lacus vulputate. Sed id auctor augue. Aenean pellentesque bibendum leo ut porttitor. Nam non odio nunc. Vivamus viverra sodales.</p>
+                        <p><a href="/about-me.html" class="button">Read more about us <i class="fa fa-long-arrow-right"></i></a></p>
+
+                    </div>
+
+                </div>
+
+                <div class="right">
+
+                    <div class="images" data-interval="6000">
+
+                        <div class="image">
+
+                            <img src="_assets/_img/image.png" alt="Image" class="image-data-for-parent" />
+
+                        </div>
+
+                        <div class="image">
+
+                            <img src="_assets/_img/image.png" alt="Image" class="image-data-for-parent" />
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="double-content">
+
+            <div class="center">
+
+                <div class="left">
+
+                    <div class="images">
+
+                        <div class="image image-for-video" data-video-url="https://www.youtube.com/watch?v=efVWyPNd3xw" data-video-width="560" data-video-height="315" data-video-scale="yes">
+
+                            <img src="_assets/_img/image.png" alt="Image" class="image-data-for-parent" />
+                            <span class="video"><i class="fa fa-play-circle-o"></i></span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="right">
+
+                    <div class="padding-both">
+
+                        <h4><a href="#">Recommendations</a></h4>
+                        <h2>We have great references.</h2>
+
+                        <p>Nisl congue varius. Curabitur ullamcorper nibh ut felis ultricies, in auctor lacus vulputate. Sed id auctor augue. Aenean pellentesque bibendum leo ut porttitor. Nam non odio nunc. Vivamus viverra sodales.</p>
+                        <p><a href="/about-me.html#references" class="button button-white"><i class="fa fa-long-arrow-right"></i></a></p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="triple-content without-top-space">
+
+            <div class="center">
+
+                <div class="heading heading-border">
+
+                    <h4>Recent news</h4>
+                    <p class="read-more"><a href="/blog.html" class="more">View all <i class="fa fa-long-arrow-right"></i></a></p>
+
+                </div>
+
+                <div class="left">
+
+                    <h4 class="post-data">April 15, 2016</h4>
+                    <h2><a href="/blog-single.html">How to do something with own life?</a></h2>
+
+                    <p>Pellentesque ac lectus nec leo euismod ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit amet risus.</p>
+                    <p><a href="/blog-single.html" class="button button-white"><i class="fa fa-long-arrow-right"></i></a></p>
+
+                </div>
+
+                <div class="middle">
+
+                    <h4 class="post-data">April 6, 2016</h4>
+                    <h2><a href="/blog-single.html">Live better, smarter and easier</a></h2>
+
+                    <p>Ut sem arcu, gravida sit amet dictum et, porttitor sit amet risus. Donec rhoncus lobortis elit, nec gravida eros.</p>
+                    <p><a href="/blog-single.html" class="button button-white"><i class="fa fa-long-arrow-right"></i></a></p>
+
+                </div>
+
+                <div class="right">
+
+                    <h4 class="post-data">March 23, 2016</h4>
+                    <h2><a href="/blog-single.html">How to find work-life balance</a></h2>
+
+                    <p>Pellentesque ac lectus nec leo euismod ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit amet risus.</p>
+                    <p><a href="/blog-single.html" class="button button-white"><i class="fa fa-long-arrow-right"></i></a></p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="call-to-action">
+
+            <img src="_assets/_img/image.png" alt="Image" class="image-data-for-parent" />
+
+            <div class="middle-helper">
+            </div>
+
+            <div class="heading-slider-slide-content">
+
+                <div class="center">
+
+                    <h2>Friendly atmosphere<br /> for all of your thoughts</h2>
+                    <p><button data-action="show-schedule-popup" class="button">Schedule a Visit <i class="fa fa-long-arrow-right"></i></button> or <a href="/about-me.html">find out more about us</a></p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer>
+
+            <div class="center">
+
+                <div class="column">
+
+                    <h3>Therapies</h3>
+                    <ul class="menu">
+
+                        <li><a href="/therapy.html">Therapy for Couples</a></li>
+                        <li><a href="/therapy.html">Therapy for Seniors</a></li>
+                        <li><a href="/therapy.html">Therapy for Childrens</a></li>
+                        <li><a href="/therapy.html">Individual Therapy</a></li>
+
+                    </ul>
+
+                </div>
+
+                <div class="column">
+
+                    <h3>Other pages</h3>
+                    <ul class="menu">
+
+                        <li><a href="/index.html">Home page</a></li>
+                        <li><a href="/about-me.html">About me</a></li>
+                        <li><a href="/blog.html">Recent news</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+
+                    </ul>
+
+                </div>
+
+                <div class="column">
+
+                    <h3>Contact us</h3>
+
+                    <p><a href="mailto:monica.wayne@example.com">monica.wayne@example.com</a></p>
+                    <p>1234 Example,<br /> Los Angeles, CA 98765</p>
+
+                </div>
+
+                <div class="column">
+
+                    <h2><a href="tel:18001234567">1-800-123-4567</a></h2>
+
+                    <ul class="social-media">
+
+                        <li><a href="#" class="social-icon"><i class="fa fa-facebook-square"></i></a></li>
+                        <li><a href="#" class="social-icon"><i class="fa fa-twitter-square"></i></a></li>
+                        <li><a href="#" class="social-icon"><i class="fa fa-google-plus-square"></i></a></li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+    <script type="text/javascript" src="_assets/_libs/jquery.js"></script>
+    <script type="text/javascript" src="_assets/_libs/moment.js"></script>
+    <script type="text/javascript" src="_assets/_libs/pikaday/pikaday.js"></script>
+    <script type="text/javascript" src="_assets/_js/functions.js"></script>
+
+</body>
+</html>
