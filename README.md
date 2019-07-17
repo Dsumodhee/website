@@ -1,1 +1,4 @@
 
+```
+bundle exec jekyll serve
+```

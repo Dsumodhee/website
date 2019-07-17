@@ -1,27 +1,19 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: default
+title: About me
 ---
-
-{% include head.html %}
-{% include schedule-popup.html %}
-{% include header.html %}
 
     <div class="wrapper">
 
         <section class="image-header">
-
-            <img src="_assets/_img/image.png" alt="Image" class="image-data-for-parent" />
+            <img src="assets/img/image.png" alt="Image" class="image-data-for-parent" />
             <div class="content">
-
                 <div class="center">
-
-                    <h3>About me</h3>
-
+                    <h3>{{page.title}}</h3>
                 </div>
-
             </div>
-
         </section>
 
         <section class="tabs">
@@ -31,11 +23,9 @@
                 <div class="center">
 
                     <ul class="tabs-selectors">
-
-                        <li class="active" data-tab-id="monica-wayne-psy-d">Monica Wayne, Psy. D</li>
-                        <li data-tab-id="my-team">My team</li>
-                        <li data-tab-id="references">References</li>
-
+                        <li class="active" data-tab-id="dsumodhee-psy-d">{{ site.author }}</li>
+                        <!-- <li data-tab-id="my-team">My team</li> -->
+                        <!-- <li data-tab-id="references">References</li> -->
                     </ul>
 
                 </div>
@@ -44,13 +34,13 @@
 
             <div class="center tabs-contents">
 
-                <article data-tab-id="monica-wayne-psy-d">
+                <article data-tab-id="dsumodhee-psy-d">
 
                     <div class="heading">
 
                         <div class="left">
 
-                            <h1>Dayyanah Sumodhee<br /> Psy. D.</h1>
+                            <h1>{{site.author}}</h1>
 
                         </div>
 
@@ -63,8 +53,17 @@
 
                     </div>
 
-                    <p>Ut sollicitudin tellus at nisl lacinia rhoncus. Integer imperdiet sit amet massa a vehicula. Nam sit amet laoreet elit. Aliquam ut viverra mi. Nam facilisis lacus et quam auctor suscipit sed vitae erat. Sed eget lacus risus. Nam at sagittis lorem. Morbi tempor suscipit tellus, eget facilisis neque efficitur id. Aenean maximus sem sed gravida tincidunt. Sed tempus nunc eget nisl pretium.</p>
-                    <p>Cras pharetra, est eget tempor rhoncus, nisl elit lobortis tellus, eu euismod tellus odio a neque. Sed placerat quis augue at luctus. Curabitur in est in diam ornare mattis vitae at magna. Etiam tincidunt convallis dictum. Sed vitae magna eu dui dignissim congue at eu urna. In ut ante lorem. Cras eget varius orci.</p>
+                    <p>
+                    Dayyanah is a Health Psychologist (HCPC reg.) with a wealth of experience in designing and delivering behaviour change interventions for patients who smoke or have a variety of health conditions (respiratory, oncology, pain).
+                    </p>
+
+                    <p>
+                    She conducts multi-strand quantitative and qualitative research specialising in health and wellbeing. Her research skills include gaining ethics approval, designing study materials, collecting and analysing data (using SPSS and R), and disseminating her work through conference presentations and paper publications.
+                    </p>
+
+                    <p>
+                    Dayyanah has in-depth experience in delivering undergraduate and postgraduate teaching sessions as well as delivering training to healthcare and non-healthcare professionals. She translates health and psychological research findings into insightful and innovative healthcare solutions. Dayyanah aspires to identify gaps and weaknesses in health services to offer insightful strategies to satisfy unmet needs.
+                    </p>
 
                     <div class="double-content">
 
@@ -96,13 +95,16 @@
 
                                     <strong>Age:</strong> 30<br>
                                     <strong>Years of experience:</strong> 5<br>
-                                    <strong>Specialization:</strong> health psychology<br>
+                                    <strong>Specialization:</strong> health psychology, smoking cessation<br>
 
                                 </p>
-
-                                <p>Nulla vitae tincidunt dolor. Morbi pretium lorem quis lacus ultricies, ac bibendum nibh cursus. Donec volutpat dolor ac nibh interdum ornare. In vel pharetra lorem.</p>
-
-                            </div>
+<p>
+Highly motivated Health Psychologist with a wealth of experience in designing and delivering behaviour change interventions for patients who smoke or have a variety of health conditions (respiratory, oncology, pain).
+</p>
+<p>
+Conducts multi-strand quantitative and qualitative research specialising in health and wellbeing. Research skills include gaining ethics approval, designing study materials, collecting and analysing data (using SPSS and R), and disseminating her work through conference presentations and paper publications.
+</p>
+</div>
 
                         </div>
 
@@ -115,30 +117,30 @@
                              <span class="timeline-line"></span>
 
                              <div class="timeline-element">
-
                                  <span class="circle"><span class="circle-inside"></span></span>
-
-                                 <span class="when">1991</span>
-                                 <span class="what">Company Founded</span>
-
+                                 <span class="when">2007-2012</span>
+                                 <span class="what">
+                                     BSci in Psychology <br>
+                                     <i> University of Bordeaux, France </i>
+                                 </span>
                              </div>
 
                              <div class="timeline-element">
-
                                  <span class="circle"><span class="circle-inside"></span></span>
-
-                                 <span class="when">1996</span>
-                                 <span class="what">We're team of 2 doctors</span>
-
+                                 <span class="when">2012-2013</span>
+                                 <span class="what">
+                                     Masters in Child and Adolescent Health<br>
+                                     <i> University of Bordeaux, France </i>
+                                 </span>
                              </div>
 
                              <div class="timeline-element timeline-element-last">
-
                                  <span class="circle circle-active"><span class="circle-inside"></span></span>
-
-                                 <span class="when">2002 - present</span>
-                                 <span class="what">17 stuff members</span>
-
+                                 <span class="when">2018 - present</span>
+                                 <span class="what">
+                                     Research Health Psychologist
+                                     <i> Queen Mary University of London</i>
+                                 </span>
                              </div>
 
                          </div>
@@ -146,9 +148,7 @@
                          <div class="timeline-right">
 
                              <div class="timeline-element-content">
-
-                                 <h2>Company Founded</h2>
-
+                                 <h2>BSci in Psychology</h2>
                                  <p><strong>Mauris nec dignissim augue, id feugiat nisi. In ullamcorper mauris in elementum tincidunt. Vestibulum sit amet elementum nunc. Pellentesque euismod et leo in varius.</strong></p>
                                  <p>Nunc nisi felis, malesuada ac sagittis sed, tempus nec odio. Vivamus ullamcorper pretium ipsum, id molestie elit dapibus vitae. Vestibulum ut odio id sem ultrices convallis vel id diam. Aliquam erat volutpat. Aliquam mattis lacus id neque posuere, ac egestas mi volutpat. Maecenas augue ante, laoreet vitae elementum rhoncus, pharetra eget erat.</p>
                                  <p>Donec vitae tellus eu purus lacinia elementum. Morbi fermentum mattis magna. Vestibulum vel gravida sem. Morbi iaculis egestas turpis, a bibendum leo tristique ut. Nullam sed eros a est bibendum imperdiet et et elit. Morbi non est at velit blandit placerat fermentum sed leo.</p>
@@ -175,15 +175,17 @@
 
                              <div class="timeline-element-content">
 
-                                 <h2>17 stuff members</h2>
+                                 <h2>Research Health Psychologist</h2>
 
-                                 <p><strong>Maecenas id finibus diam. In vehicula convallis urna semper feugiat. Suspendisse eu pretium nisl. Ut ultricies suscipit massa ac ultricies.</strong></p>
-                                 <p>Duis convallis condimentum mi eget iaculis. Aliquam quis ultrices velit. Sed fermentum purus a enim fermentum tincidunt. Curabitur non nisi ut orci interdum faucibus vel efficitur eros. Etiam pellentesque eros vitae nibh porta, nec bibendum ex tincidunt. Suspendisse sed libero efficitur, fermentum risus at, varius dui. Vestibulum nulla mauris, ornare at aliquam eu, suscipit nec ligula.</p>
-                                 <p>Mauris id massa risus. Vivamus vestibulum nec urna et congue. Quisque mollis, odio id consectetur faucibus, purus diam elementum mauris, vitae euismod ipsum elit a velit. In quis enim justo. Quisque tincidunt libero eget auctor malesuada. Maecenas sit amet vestibulum ligula.</p>
+                                 <p><strong>Important contributions to the study "A Randomized Trial of E-Cigarettes vs NRT" published in NEJM:</strong></p>
+                                 <p>
+                                 <ul>
+                                     <li> Analysed characteristics of attenders and outcome variables.</li>
+                                     <li> Managed research projects for smoking cessation and weight management. </li>
+                                     <li> Collected and analysed metrics of clinics performance. </li>
+                                 </ul>
+                                 </p>
 
-                                 <h3>Morbi eleifend faucibus consequat</h3>
-                                 <p>ellentesque euismod et leo in varius. Donec varius sem arcu, ac molestie enim volutpat quis. Fusce a lorem justo. Quisque vel nunc fermentum, dictum dui nec, rhoncus velit. Maecenas id finibus diam. In vehicula convallis urna semper feugiat. Suspendisse eu pretium nisl. Ut ultricies suscipit massa ac ultricies. Curabitur vitae tempus lectus.</p>
-                                 <p>Vivamus mi lorem, interdum id metus ut, suscipit tristique risus. In eu commodo eros, vitae ultricies sapien. Vestibulum maximus ultricies magna, ac blandit leo placerat non. Vivamus ornare aliquet porttitor.</p>
 
                              </div>
 
@@ -363,4 +365,3 @@
 
         </section>
 
-{% include footer.html %}
