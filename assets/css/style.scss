@@ -2226,10 +2226,30 @@ header .logo {
     vertical-align: middle;
 }
 
+
+
 header .logo img {
     max-width: 250px;
     max-height: 75px;
 }
+
+footer .logo {
+    width: 350px;
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    background-color: white;
+    padding: 10px;
+}
+
+footer .logo img {
+    max-width: 200px;
+    max-height: 100px;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+
 
 header nav.top-menu {
     display: inline-block;

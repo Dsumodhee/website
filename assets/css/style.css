@@ -2221,15 +2221,34 @@ header .bottom {
 }
 
 header .logo {
-    width: 300px;
+    width: 250px;
     display: inline-block;
     vertical-align: middle;
 }
 
+
 header .logo img {
+    max-width: 250px;
+    max-height: 75px;
+}
+
+footer .logo {
+    width: 350px;
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    background-color: white;
+    padding: 10px;
+}
+
+footer .logo img {
     max-width: 200px;
     max-height: 50px;
+    padding: 10px;
+    vertical-align: middle;
 }
+
+
 
 header nav.top-menu {
     display: inline-block;
