@@ -1,72 +1,69 @@
     <header>
-
         <div class="top">
-
             <div class="center">
-
                 <div class="top-elements-wrapper">
-
                     <div class="element">
-                        <i class="fa fa-phone"></i> <a href="#"></a>
+                        <i class="fa fa-phone"></i> <a href="">{{site.phone}}</a>
                     </div>
-
                     <div class="element">
-                        <i class="fa fa-envelope-o"></i> <a href="#">dayyanah.su@gmail.com</a>
+                        <i class="fa fa-envelope-o"></i> <a href="mailto:{{site.email}}">{{site.email}}</a>
                     </div>
-
                     <div class="element element-languages">
-
                         <span class="container">
-
                             <i class="fa fa-globe"></i>
                             <span class="current-language">English</span>
-
                         </span>
-
                         <ul class="available-languages animated animated-speed fadeInDown">
                             <li><a href="#">French</a></li>
                         </ul>
-
                     </div>
-
                     <div class="element element-social-icons">
-                        <a href="https://www.linkedin.com/in/dr-dayyanah-sumodhee/"><i class="fa fa-linkedin"></i></a>
-                        <a href="https://twitter.com/dsumodhee"><i class="fa fa-twitter"></i></a>
+                        <a href="{{site.facebook}}"><i class="fa fa-facebook"></i></a>
+                        <a href="{{site.linkedin}}"><i class="fa fa-linkedin"></i></a>
+                        <a href="{{site.twitter}}"><i class="fa fa-twitter"></i></a>
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
         <div class="bottom">
-
             <div class="center">
-
                 <div class="logo">
-
                     <a href="/index.html"><img src="assets/img/logo.png" alt="" /></a>
-
                 </div>
-
                 <nav class="top-menu">
-
                     <ul class="menu">
-
-                        <li class="active"><a href="/index.html">Home</a></li>
-                        <li><a href="/therapies.html">Specialist Services</a></li>
-                        <li><a href="/about-me.html">About me</a></li>
-                        <li><a href="/contact.html">Get in touch</a></li>
-                        <!-- <li><a href="/blog.html">Blog</a></li> -->
+                        <! --About me, Specialist Services, Get in touch, Fees, Blog. -->
+                        <li
+                        {% if page.title=="Home" %}
+                            class="active"
+                        {% endif %}
+                            ><a href="/index.html">Home</a></li>
+                        <li
+                        {% if page.title=="Therapies" %}
+                            class="active"
+                        {% endif %}
+                            ><a href="/therapies.html">Therapies</a></li>
+                        <li
+                        {% if page.title=="About me" %}
+                            class="active"
+                        {% endif %}
+                            ><a href="/about-me.html">About me</a></li>
+                        <li
+                        {% if page.title=="Get in touch" %}
+                            class="active"
+                        {% endif %}
+                            ><a href="/contact.html">Get in touch</a></li>
+                            <!--
+                        <li
+                        {% if page.title=="Blog" %}
+                            class="active"
+                        {% endif %}
+                            ><a href="/blog.html">Blog</a></li>
+                            -->
                     </ul>
-
                 </nav>
-
                 <div class="responsive-menu-button"><i class="fa fa-bars"></i></div>
-
             </div>
-
         </div>
-
     </header>
+

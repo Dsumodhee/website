@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-08T19:07:33+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dr Dayyanah Sumodhee</title><subtitle>Professional website of Dr Dayyanah Sumodhee, Chartered Psychologist</subtitle><author><name>Dr Dayyanah Sumodhee</name></author><entry><title type="html">Living Well</title><link href="http://localhost:4000/2019/07/07/living-well.html" rel="alternate" type="text/html" title="Living Well" /><published>2019-07-07T00:00:00+01:00</published><updated>2019-07-07T00:00:00+01:00</updated><id>http://localhost:4000/2019/07/07/living-well</id><content type="html" xml:base="http://localhost:4000/2019/07/07/living-well.html">&lt;div class=&quot;wrapper&quot;&gt;
+
+        &lt;section class=&quot;blog&quot;&gt;
+
+            &lt;div class=&quot;center&quot;&gt;
+
+                &lt;div class=&quot;blog-posts&quot;&gt;
+
+                    &lt;article class=&quot;blog-post-full&quot;&gt;
+
+                        &lt;div class=&quot;images&quot;&gt;
+
+                            &lt;div class=&quot;image&quot;&gt;
+
+                                &lt;img src=&quot;assets/img/image.png&quot; alt=&quot;Image&quot; class=&quot;image-data-for-parent&quot; /&gt;
+
+                            &lt;/div&gt;
+
+                        &lt;/div&gt;
+
+                        &lt;div class=&quot;content-container&quot;&gt;
+
+                            &lt;h4 class=&quot;post-data&quot;&gt;
+                                Jul 07, 2019
+                                &lt;span class=&quot;divider&quot;&gt;&amp;middot;&lt;/span&gt;
+
+                                &lt;a href=&quot;#&quot;&gt;Dr Dayyanah Sumodhee&lt;/a&gt;
+                                &lt;span class=&quot;divider&quot;&gt;&amp;middot;&lt;/span&gt;
+
+                                &lt;a href=&quot;#&quot;&gt;Living Well&lt;/a&gt;
+
+                            &lt;/h4&gt;
+
+                            &lt;h2 class=&quot;title&quot;&gt;&lt;a href=&quot;#&quot;&gt;Living Well&lt;/a&gt;&lt;/h2&gt;
+
+                            &lt;p&gt;Donec varius hendrerit mi non tempor. Sed id lacus at dui accumsan porttitor. Aliquam convallis egestas euismod. Fusce semper aliquet tincidunt. Mauris vel libero a magna maximus gravida id nec lectus. Donec ultricies, tellus non sodales ornare, felis ex volutpat lacus, a congue dolor lectus id leo. Quisque consectetur porttitor efficitur. Morbi est ipsum, efficitur nec sapien vel, vehicula dignissim neque.&lt;/p&gt;
+                            &lt;p&gt;Nulla sapien massa, tempus in eros vel, viverra lacinia diam. Nam quis felis ac nunc iaculis suscipit. Nunc varius mi purus, volutpat sagittis lorem viverra vel. Curabitur blandit orci sit amet turpis tempor, ut consectetur dui porttitor. In hac habitasse platea dictumst. Praesent lorem justo, tincidunt a velit eu, dictum interdum arcu.&lt;/p&gt;
+
+                            &lt;h3&gt;Header H3&lt;/h3&gt;
+                            &lt;p&gt;Duis condimentum at velit a tincidunt. Duis diam mauris, luctus a dolor quis, adipiscing placerat mi. Maecenas imperdiet massa et lorem accumsan dictum. Nunc sit amet vehicula justo, vehicula lacinia purus.&lt;/p&gt;
+                            &lt;p&gt;Sed magna neque, interdum ut vulputate sed, cursus eu risus. Phasellus sagittis interdum magna, vel ultricies tellus porttitor ut. Vivamus malesuada varius quam quis mollis. Mauris sodales, mi ac &lt;a href=&quot;#&quot;&gt;bibendum varius&lt;/a&gt;, nibh ligula tempus velit, sed convallis lectus metus ac justo.&lt;/p&gt;
+
+                            &lt;h4&gt;Header H4&lt;/h4&gt;
+                            &lt;p&gt;Nunc nisi felis, malesuada ac sagittis sed, tempus nec odio. Vivamus ullamcorper pretium ipsum, id molestie elit dapibus vitae. Vestibulum ut odio id sem ultrices convallis vel id diam. Aliquam erat volutpat. Aliquam mattis lacus id neque posuere, ac egestas mi volutpat. Maecenas augue ante, laoreet vitae elementum rhoncus, pharetra eget erat.&lt;/p&gt;
+                            &lt;blockquote&gt;
+
+                                &lt;p&gt;Morbi vestibulum consectetur molestie. Aliquam vel laoreet lectus, nec gravida diam. Nunc cursus facilisis mauris nec vulputate. Morbi varius sapien eget pulvinar consectetur. Aliquam mattis lacus id neque posuere, ac egestas mi volutpat.&lt;/p&gt;
+                                &lt;cite&gt;John Doe&lt;/cite&gt;
+
+                            &lt;/blockquote&gt;
+
+                            &lt;h5&gt;Header H5&lt;/h5&gt;
+                            &lt;p&gt;Nulla sapien massa, tempus in eros vel, viverra lacinia diam. Nam quis felis ac nunc iaculis suscipit. Nunc varius mi purus, volutpat sagittis lorem viverra vel. Curabitur blandit orci sit amet turpis tempor, ut consectetur dui porttitor. In hac habitasse platea dictumst. Praesent lorem justo, tincidunt a velit eu, dictum interdum arcu.&lt;/p&gt;
+
+                            &lt;ol&gt;
+
+                                &lt;li&gt;&lt;span&gt;Nunc sit amet vehicula justo&lt;/span&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;span&gt;Duis diam mauris, luctus&lt;/span&gt;&lt;/li&gt;
+
+                                &lt;li&gt;
+
+                                    &lt;span&gt;Vivamus ullamcorper pretium ipsum&lt;/span&gt;
+                                    &lt;ul&gt;
+
+                                        &lt;li&gt;&lt;span&gt;Aenean semper faucibus lacus&lt;/span&gt;&lt;/li&gt;
+                                        &lt;li&gt;&lt;span&gt;Duis condimentum at velit&lt;/span&gt;&lt;/li&gt;
+
+                                    &lt;/ul&gt;
+
+                                &lt;/li&gt;
+
+                                &lt;li&gt;&lt;span&gt;Maecenas augue ante&lt;/span&gt;&lt;/li&gt;
+
+                            &lt;/ol&gt;
+
+                            &lt;p&gt;Donec vitae tellus eu purus lacinia elementum. Morbi fermentum mattis magna. Vestibulum vel gravida sem. Morbi iaculis egestas turpis, a bibendum leo tristique ut. Nullam sed eros a est bibendum imperdiet et et elit. Morbi non est at velit blandit placerat fermentum sed leo.&lt;/p&gt;
+
+                        &lt;/div&gt;
+
+                    &lt;/article&gt;
+
+                    &lt;div class=&quot;author-box&quot;&gt;
+
+                        &lt;div class=&quot;author-image&quot;&gt;
+
+                            &lt;img src=&quot;assets/img/image.png&quot; alt=&quot;Image&quot; class=&quot;image-data-for-parent&quot; /&gt;
+
+                        &lt;/div&gt;
+
+                        &lt;div class=&quot;author-box-content&quot;&gt;
+
+                            &lt;i class=&quot;fa fa-newspaper-o background-icon&quot;&gt;&lt;/i&gt;
+
+                            &lt;div class=&quot;left&quot;&gt;
+
+                                &lt;h3&gt;Alison &lt;strong&gt;Smith&lt;/strong&gt;&lt;/h3&gt;
+                                &lt;p&gt;Vivamus ullamcorper pretium ipsum, id molestie elit dapibus vitae. Vestibulum ut odio id sem ultrices convallis vel id diam.&lt;/p&gt;
+
+                                &lt;ul class=&quot;social-media&quot;&gt;
+
+                                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-facebook-square&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-google-plus-square&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-twitter-square&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+
+                                &lt;/ul&gt;
+
+                            &lt;/div&gt;
+
+                            &lt;div class=&quot;right&quot;&gt;
+
+                                &lt;h3&gt;Future &lt;strong&gt;reading&lt;/strong&gt;&lt;/h3&gt;
+                                &lt;ul&gt;
+
+                                    &lt;li&gt;&lt;a href=&quot;/blog-single.html&quot;&gt;Morbi fermentum mattis magna&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li&gt;&lt;a href=&quot;/blog-single.html&quot;&gt;Vestibulum vel gravida sem&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li&gt;&lt;a href=&quot;/blog-single.html&quot;&gt;Nullam sed eros a est bibendum&lt;/a&gt;&lt;/li&gt;
+
+                                &lt;/ul&gt;
+
+                                &lt;p&gt;&lt;a href=&quot;/blog.html&quot;&gt;View all &amp;raquo;&lt;/a&gt;&lt;/p&gt;
+
+                            &lt;/div&gt;
+
+                        &lt;/div&gt;
+
+                    &lt;/div&gt;
+
+                    &lt;div class=&quot;comments&quot;&gt;
+
+                        &lt;h2 class=&quot;heading&quot;&gt;Comments&lt;/h2&gt;
+                        &lt;ul class=&quot;comments-list&quot;&gt;
+
+                            &lt;li class=&quot;comment&quot;&gt;
+
+                                &lt;div class=&quot;comment-data&quot;&gt;
+
+                                    &lt;div class=&quot;comment-author-image&quot;&gt;
+
+                                        &lt;img src=&quot;assets/img/image.png&quot; alt=&quot;Image&quot; class=&quot;image-data-for-parent&quot; /&gt;
+
+                                    &lt;/div&gt;
+
+                                    &lt;div class=&quot;comment-author-name&quot;&gt;Kevin McDonovan &lt;span class=&quot;reply&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-reply&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+                                    &lt;div class=&quot;comment-pub-date&quot;&gt;2 days ago&lt;/div&gt;
+
+                                &lt;/div&gt;
+
+                                &lt;div class=&quot;comment-content&quot;&gt;
+
+                                    &lt;p&gt;Morbi vestibulum consectetur molestie. Aliquam vel laoreet lectus, nec gravida diam. Nunc cursus facilisis mauris nec vulputate. Morbi varius sapien eget pulvinar consectetur. Aliquam mattis lacus id neque posuere, ac egestas mi volutpat. Morbi non est at velit blandit.&lt;/p&gt;
+
+                                &lt;/div&gt;
+
+                                &lt;ul class=&quot;sub-comments&quot;&gt;
+
+                                    &lt;li class=&quot;comment&quot;&gt;
+
+                                        &lt;div class=&quot;comment-wrapper&quot;&gt;
+
+                                            &lt;div class=&quot;comment-data&quot;&gt;
+
+                                                &lt;div class=&quot;comment-author-image&quot;&gt;
+
+                                                    &lt;img src=&quot;assets/img/image.png&quot; alt=&quot;Image&quot; class=&quot;image-data-for-parent&quot; /&gt;
+
+                                                &lt;/div&gt;
+
+                                                &lt;div class=&quot;comment-author-name&quot;&gt;Alison Smith &lt;span class=&quot;author&quot;&gt;Author&lt;/span&gt;&lt;/div&gt;
+                                                &lt;div class=&quot;comment-pub-date&quot;&gt;25 mins ago&lt;/div&gt;
+
+                                            &lt;/div&gt;
+
+                                            &lt;div class=&quot;comment-content&quot;&gt;
+
+                                                &lt;p&gt;Donec vitae tellus eu purus lacinia elementum. Morbi fermentum mattis magna. Vestibulum vel gravida sem. Morbi iaculis egestas turpis, a bibendum leo tristique ut. Nullam sed eros a est bibendum imperdiet et et elit. Morbi non est at velit blandit placerat fermentum sed leo. Nullam sed eros a est bibendum imperdiet et et elit.&lt;/p&gt;
+
+                                            &lt;/div&gt;
+
+                                        &lt;/div&gt;
+
+                                    &lt;/li&gt;
+
+                                    &lt;li class=&quot;comment&quot;&gt;
+
+                                        &lt;div class=&quot;comment-wrapper&quot;&gt;
+
+                                            &lt;div class=&quot;comment-data&quot;&gt;
+
+                                                &lt;div class=&quot;comment-author-image&quot;&gt;
+
+                                                    &lt;img src=&quot;assets/img/image.png&quot; alt=&quot;Image&quot; class=&quot;image-data-for-parent&quot; /&gt;
+
+                                                &lt;/div&gt;
+
+                                                &lt;div class=&quot;comment-author-name&quot;&gt;Monica Wayne&lt;/div&gt;
+                                                &lt;div class=&quot;comment-pub-date&quot;&gt;1 day ago&lt;/div&gt;
+
+                                            &lt;/div&gt;
+
+                                            &lt;div class=&quot;comment-content&quot;&gt;
+
+                                                &lt;p&gt;Donec vitae tellus eu purus lacinia elementum. Morbi fermentum mattis magna. Vestibulum vel gravida sem. Morbi iaculis egestas turpis, a bibendum leo tristique ut. Nullam sed eros a est bibendum imperdiet et et elit. Morbi non est at velit blandit placerat fermentum sed leo. Nullam sed eros a est bibendum imperdiet et et elit.&lt;/p&gt;
+
+                                            &lt;/div&gt;
+
+                                        &lt;/div&gt;
+
+                                    &lt;/li&gt;
+
+                                &lt;/ul&gt;
+
+                            &lt;/li&gt;
+
+                            &lt;li class=&quot;comment&quot;&gt;
+
+                                &lt;div class=&quot;comment-data&quot;&gt;
+
+                                    &lt;div class=&quot;comment-author-image&quot;&gt;
+
+                                        &lt;img src=&quot;assets/img/image.png&quot; alt=&quot;Image&quot; class=&quot;image-data-for-parent&quot; /&gt;
+
+                                    &lt;/div&gt;
+
+                                    &lt;div class=&quot;comment-author-name&quot;&gt;John Smith &lt;span class=&quot;reply&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-reply&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+                                    &lt;div class=&quot;comment-pub-date&quot;&gt;3 days ago&lt;/div&gt;
+
+                                &lt;/div&gt;
+
+                                &lt;div class=&quot;comment-content&quot;&gt;
+
+                                    &lt;p&gt;Donec vitae tellus eu purus lacinia elementum. Morbi fermentum mattis magna. Vestibulum vel gravida sem. Morbi iaculis egestas turpis, a bibendum leo tristique ut. Nullam sed eros a est bibendum imperdiet et et elit. Morbi non est at velit blandit placerat fermentum sed leo. Nullam sed eros a est bibendum imperdiet et et elit.&lt;/p&gt;
+
+                                &lt;/div&gt;
+
+                            &lt;/li&gt;
+
+                            &lt;li class=&quot;comment&quot;&gt;
+
+                                &lt;div class=&quot;comment-data&quot;&gt;
+
+                                    &lt;div class=&quot;comment-author-image&quot;&gt;
+
+                                        &lt;img src=&quot;assets/img/image.png&quot; alt=&quot;Image&quot; class=&quot;image-data-for-parent&quot; /&gt;
+
+                                    &lt;/div&gt;
+
+                                    &lt;div class=&quot;comment-author-name&quot;&gt;Susane Doe &lt;span class=&quot;reply&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-reply&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+                                    &lt;div class=&quot;comment-pub-date&quot;&gt;3 days ago&lt;/div&gt;
+
+                                &lt;/div&gt;
+
+                                &lt;div class=&quot;comment-content&quot;&gt;
+
+                                    &lt;p&gt;Donec varius hendrerit mi non tempor. Sed id lacus at dui accumsan porttitor. Aliquam convallis egestas euismod. Fusce semper aliquet tincidunt. Mauris vel libero a magna maximus gravida id nec lectus. Donec ultricies, tellus non sodales ornare, felis ex volutpat lacus, a congue dolor lectus id leo. Quisque consectetur porttitor efficitur. Morbi est ipsum, efficitur nec sapien vel, vehicula.&lt;/p&gt;
+
+                                &lt;/div&gt;
+
+                            &lt;/li&gt;
+
+                        &lt;/ul&gt;
+
+                        &lt;h2&gt;Leave your reply&lt;/h2&gt;
+                        &lt;form method=&quot;post&quot; class=&quot;form form-comment-reply&quot;&gt;
+
+                            &lt;input type=&quot;text&quot; name=&quot;Comment Author Name&quot; placeholder=&quot;Your name...&quot; class=&quot;one-third-width&quot; /&gt;
+                            &lt;input type=&quot;text&quot; name=&quot;Comment Author E-mail&quot; placeholder=&quot;Your e-mail...&quot; class=&quot;one-third-width&quot; /&gt;
+                            &lt;input type=&quot;text&quot; name=&quot;Comment Author website URL&quot; placeholder=&quot;Your website URL...&quot; class=&quot;one-third-width one-third-width-last&quot; /&gt;
+
+                            &lt;textarea rows=&quot;5&quot; cols=&quot;5&quot; placeholder=&quot;Comment...&quot; name=&quot;Comment&quot;&gt;&lt;/textarea&gt;
+                            &lt;button type=&quot;button&quot; class=&quot;button&quot;&gt;Add your comment!&lt;/button&gt;
+
+                        &lt;/form&gt;
+
+                    &lt;/div&gt;
+
+                &lt;/div&gt;
+
+                &lt;div class=&quot;sidebar&quot;&gt;
+
+                    &lt;div class=&quot;widget widget-call-to-action&quot;&gt;
+
+                        &lt;i class=&quot;fa fa-gift background-icon&quot;&gt;&lt;/i&gt;
+
+                        &lt;div class=&quot;padding&quot;&gt;
+
+                            &lt;h4&gt;Limited offer&lt;/h4&gt;
+                            &lt;h2&gt;50% off for first session!&lt;/h2&gt;
+
+                            &lt;p&gt;&lt;button data-action=&quot;show-schedule-popup&quot; class=&quot;button&quot;&gt;Schedule a Visit &lt;i class=&quot;fa fa-long-arrow-right&quot;&gt;&lt;/i&gt;&lt;/button&gt;&lt;/p&gt;
+
+                        &lt;/div&gt;
+
+                    &lt;/div&gt;
+
+                    &lt;div class=&quot;widget&quot;&gt;
+
+                        &lt;div class=&quot;padding&quot;&gt;
+
+                            &lt;h4&gt;Popular tags&lt;/h4&gt;
+                            &lt;div class=&quot;tagcloud&quot;&gt;
+                                
+                                &lt;a href=&quot;#&quot;&gt;Therapy&lt;/a&gt;
+                                
+                                &lt;a href=&quot;#&quot;&gt;Life&lt;/a&gt;
+                                
+                                &lt;a href=&quot;#&quot;&gt;tips&lt;/a&gt;
+                                
+                            &lt;/div&gt;
+
+                        &lt;/div&gt;
+
+                    &lt;/div&gt;
+
+                    &lt;div class=&quot;widget&quot;&gt;
+
+                        &lt;div class=&quot;padding&quot;&gt;
+
+                            &lt;h4&gt;Most popular news&lt;/h4&gt;
+                            &lt;ul&gt;
+
+                                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Duis id hendrerit ante&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Fusce in dui ut felis facilisis&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Aliquam mi quam, vulputate&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Nunc nisi felis, malesuada ac&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Vestibulum ut odio id sem&lt;/a&gt;&lt;/li&gt;
+
+                            &lt;/ul&gt;
+
+                        &lt;/div&gt;
+
+                    &lt;/div&gt;
+
+                    &lt;div class=&quot;widget widget-references&quot;&gt;
+
+                        &lt;i class=&quot;fa fa-comments-o background-icon&quot;&gt;&lt;/i&gt;
+
+                        &lt;div class=&quot;padding&quot;&gt;
+
+                            &lt;h4&gt;References&lt;/h4&gt;
+
+                            &lt;p&gt;Maecenas vitae turpis. Duis id hendrerit ante, id sagittis quam. Sed aliquet enim ut mi fermentum.&lt;/p&gt;
+                            &lt;p&gt;Nunc urna tellus, sollicitudin non sollicitudin quis, elementum ac eros. Maecenas lobortis risus nec mauris.&lt;/p&gt;
+                            &lt;p class=&quot;author&quot;&gt;&lt;strong&gt;Tom Smith&lt;/strong&gt;, 2016&lt;/p&gt;
+
+                        &lt;/div&gt;
+
+                    &lt;/div&gt;
+
+                    &lt;div class=&quot;widget&quot;&gt;
+
+                        &lt;div class=&quot;padding&quot;&gt;
+
+                            &lt;h4&gt;Contact details&lt;/h4&gt;
+
+                            &lt;h5&gt;Company:&lt;/h5&gt;
+                            &lt;p&gt;Psychological Practice, LLC&lt;/p&gt;
+
+                            &lt;h5&gt;Location:&lt;/h5&gt;
+                            &lt;p&gt;1234 Example,&lt;br /&gt; Los Angeles, CA 98765&lt;/p&gt;
+
+                            &lt;h5&gt;Emails:&lt;/h5&gt;
+                            &lt;p&gt;&lt;a href=&quot;#&quot;&gt;monica@example.com&lt;/a&gt;&lt;br /&gt; &lt;a href=&quot;#&quot;&gt;office@example.com&lt;/a&gt;&lt;/p&gt;
+
+                            &lt;h5&gt;Phone:&lt;/h5&gt;
+                            &lt;p&gt;&lt;a href=&quot;#&quot;&gt;1-800-123-4567&lt;/a&gt;&lt;/p&gt;
+
+                        &lt;/div&gt;
+
+                    &lt;/div&gt;
+
+                &lt;/div&gt;
+
+            &lt;/div&gt;
+
+        &lt;/section&gt;
+
+        &lt;section class=&quot;call-to-action&quot;&gt;
+
+            &lt;img src=&quot;assets/img/image.png&quot; alt=&quot;Image&quot; class=&quot;image-data-for-parent&quot; /&gt;
+
+            &lt;div class=&quot;middle-helper&quot;&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&quot;heading-slider-slide-content&quot;&gt;
+
+                &lt;div class=&quot;center&quot;&gt;
+
+                    &lt;h2&gt;Friendly atmosphere&lt;br /&gt; for all of your thoughts&lt;/h2&gt;
+
+                    &lt;p&gt;Find out more about us&lt;/p&gt;
+                    &lt;p&gt;&lt;a href=&quot;/about-me.html&quot; class=&quot;button button-white&quot;&gt;&lt;i class=&quot;fa fa-long-arrow-right&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+                &lt;/div&gt;
+
+            &lt;/div&gt;
+
+        &lt;/section&gt;</content><author><name>Dr Dayyanah Sumodhee</name></author><category term="Therapy" /><category term="Life" /><category term="tips" /><summary type="html">This post is about living well</summary></entry></feed>

@@ -1,0 +1,51 @@
+
+    <div id="schedule-popup">
+        <div class="schedule-popup-background"> </div>
+        <div class="schedule-popup-content">
+            <i class="fa fa-umbrella background-icon"></i>
+            <i class="fa fa-times close-icon"></i>
+            <form method="post" class="form form-box" data-title="New contact form from your website" data-client-name-field="Name" data-client-email-field="E-mail">
+                <input type="text" name="Name" class="form-field" placeholder="Full name..." />
+                <input type="text" name="E-mail" class="form-field half-width half-width-left" placeholder="E-mail address..." />
+                <input type="text" name="Phone number" class="form-field half-width" placeholder="Phone number..." data-required="no" />
+                <input type="text" name="Date of visit" class="form-field is-datepicker" placeholder="Date of visit..." readonly />
+                <select name="Therapy" class="form-field">
+                    <option value="">-- Choose the therapy --</option>
+                    <option value="Therapy for Couples">Therapy for Couples</option>
+                </select>
+                <div class="form-field checkbox-box" data-checked="no" data-field-name="I agree with Terms and Conditions and I've read and agree Privacy Policy" data-value-if-checked="Yes">
+                    <span class="checkbox"></span>
+                    <p>I agree with <a href="#">Terms and Conditions</a> and I've read and agree <a href="#">Privacy Policy</a>.</p>
+                </div>
+                <button type="button" class="button form-send">Submit now! <i class="fa fa-long-arrow-right"></i></button>
+                <div class="thanks-lay">
+                    <div class="thanks-lay-helper"> </div>
+                    <div class="thanks-lay-content">
+                        <div class="thanks-lay-content-sending">
+                            <div class="thanks-lay-icon"><i class="fa fa-cog fa-spin"></i></div>
+                            Sending...
+                        </div>
+                        <div class="thanks-lay-content-sent">
+                            <div class="thanks-lay-icon"><i class="fa fa-check"></i></div>
+                            Your message has been sent, thank you!
+                            <span class="thanks-lay-close">Close this notice</span>
+                        </div>
+                        <div class="thanks-lay-content-not-sent">
+                            <div class="thanks-lay-icon"><i class="fa fa-times"></i></div>
+                            Please try again.
+                            <span class="thanks-lay-close">Close this notice</span>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="content">
+                <i class="fa fa-paper-plane-o content-icon"></i>
+                <h2>Schedule a Call</h2>
+                <p>Nulla vehicula fermentum nulla, a lobortis nisl vestibulum vel. Phasellus eget velit at.</p>
+                <p><strong>Call us:</strong><br /> <a href="#">{{site.phone}}</a></p>
+                <p><strong>Send an email:</strong><br /> <a href="mailto:{{site.email}}">{{site.email}}</a></p>
+            </div>
+        </div>
+    </div>
+
+

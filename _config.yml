@@ -15,14 +15,22 @@
 # in the templates via {{ site.myvariable }}.
 title: Dr Dayyanah Sumodhee 
 author: Dr Dayyanah Sumodhee
-email: dayyanah.su@gmail.com
+profession: Chartered Health Psychologist
+qualifications: BSci, MA, MSci, D. Psy
+email: info@dsumodhee.com
+website: www.dsumodhee.com
+address: Notting Hill Gate
+city: London
+country: UK
+phone: +10000001
 description: >- # this means to ignore newlines until "baseurl:"
     Professional website of Dr Dayyanah Sumodhee, Chartered Psychologist
   # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: dsumodhee
-github_username:  dsumodhee
-linkedin_username: dsumodhee
+twitter: https://twitter.com/dsumodhee
+github:  dsumodhee
+linkedin: https://www.linkedin.com/in/dr-dayyanah-sumodhee/
+facebook: https://www.facebook.com/dsumodhee
 
 # Build settings
 markdown: kramdown
