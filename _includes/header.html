@@ -32,34 +32,35 @@
                 </div>
                 <nav class="top-menu">
                     <ul class="menu">
-                        <! --About me, Specialist Services, Get in touch, Fees, Blog. -->
                         <li
                         {% if page.title=="Home" %}
                             class="active"
                         {% endif %}
                             ><a href="/index.html">Home</a></li>
+
                         <li
                         {% if page.title=="Therapies" %}
                             class="active"
                         {% endif %}
                             ><a href="/therapies.html">Therapies</a></li>
+
+                        <li
+                        {% if page.title=="Supervision" %}
+                            class="active"
+                        {% endif %}
+                            ><a href="/supervision.html">Supervision</a></li>
+
                         <li
                         {% if page.title=="About me" %}
                             class="active"
                         {% endif %}
                             ><a href="/about-me.html">About me</a></li>
+
                         <li
                         {% if page.title=="Get in touch" %}
                             class="active"
                         {% endif %}
                             ><a href="/contact.html">Get in touch</a></li>
-                            <!--
-                        <li
-                        {% if page.title=="Blog" %}
-                            class="active"
-                        {% endif %}
-                            ><a href="/blog.html">Blog</a></li>
-                            -->
                     </ul>
                 </nav>
                 <div class="responsive-menu-button"><i class="fa fa-bars"></i></div>
