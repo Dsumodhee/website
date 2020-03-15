@@ -3229,7 +3229,7 @@ section.call-to-action a:not(.button) {
 
 section.image-header {
     position: relative;
-    height: 400px;
+    height: 600px;
     font-size: 0;
     z-index: 200;
     background-size: cover;
