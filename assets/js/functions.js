@@ -1174,26 +1174,22 @@ $( document ).ready( function() {
 
             $("#contact_form").submit(function(e) {
               e.preventDefault();
-
               var $form = $(this);
               $.post($form.attr("action"), $form.serialize()).then(function() {
                 alert("Thank you!");
               });
             });
 
-
+            /*
             $.ajax({ url: 'assets/_php/submit.php',
                      data: { 'fields': fields, 'options': formOptions },
                      type: 'post',
                      success: function( output ) {
-
                          var layClass = output == 'OK' ? '.thanks-lay-content-sent' : '.thanks-lay-content-not-sent';
-
                          thanksLay.find( '.thanks-lay-content-sending' ).css({ 'display': 'none' });
                          thanksLay.find( layClass ).fadeIn( 300 );
-
                      }});
-
+            */
 
         }
 
