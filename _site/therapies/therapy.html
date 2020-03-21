@@ -24,9 +24,7 @@
         <div class="top">
             <div class="center">
                 <div class="top-elements-wrapper">
-                    <div class="element">
-                        <i class="fa fa-phone"></i> <a href="">10000001</a>
-                    </div>
+                    <!-- <div class="element"> <i class="fa fa-phone"></i> <a href="">10000001</a> </div> -->
                     <div class="element">
                         <i class="fa fa-envelope-o"></i> <a href="mailto:info@talk2sumodhee.com">info@talk2sumodhee.com</a>
                     </div>
@@ -40,7 +38,7 @@
                         </ul>
                     </div>
                     <div class="element element-social-icons">
-                        <a href="https://www.facebook.com/talk2sumodhee"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.facebook.com/Talk-to-Sumodhee-104044067842220"><i class="fa fa-facebook"></i></a>
                         <a href="https://www.linkedin.com/in/dr-dayyanah-sumodhee/"><i class="fa fa-linkedin"></i></a>
                         <a href="https://twitter.com/talk2sumodhee"><i class="fa fa-twitter"></i></a>
                     </div>
@@ -88,20 +86,25 @@
         <div class="schedule-popup-content">
             <i class="fa fa-umbrella background-icon"></i>
             <i class="fa fa-times close-icon"></i>
-            <form method="post" class="form form-box" data-title="New contact form from your website" data-client-name-field="Name" data-client-email-field="E-mail">
+            <form name="contact_form" method="POST" class="form form-box" data-title="New contact form from your website" data-client-name-field="Name" data-client-email-field="E-mail" data-netlify="true">
                 <input type="text" name="Name" class="form-field" placeholder="Full name..." />
                 <input type="text" name="E-mail" class="form-field half-width half-width-left" placeholder="E-mail address..." />
                 <input type="text" name="Phone number" class="form-field half-width" placeholder="Phone number..." data-required="no" />
-                <input type="text" name="Date of visit" class="form-field is-datepicker" placeholder="Date of visit..." readonly />
+                <!-- <input type="text" name="Date of visit" class="form-field is-datepicker" placeholder="Date of visit..." readonly /> -->
+
+                <textarea name="Message" rows="5" cols="5" placeholder="Message..." class="form-field"></textarea>
+                <!--
                 <select name="Therapy" class="form-field">
                     <option value="">-- Choose the therapy --</option>
                     <option value="Therapy for Couples">Therapy for Couples</option>
                 </select>
+                -->
                 <div class="form-field checkbox-box" data-checked="no" data-field-name="I agree with Terms and Conditions and I've read and agree Privacy Policy" data-value-if-checked="Yes">
                     <span class="checkbox"></span>
                     <p>I agree with <a href="#">Terms and Conditions</a> and I've read and agree <a href="#">Privacy Policy</a>.</p>
                 </div>
-                <button type="button" class="button form-send">Submit now! <i class="fa fa-long-arrow-right"></i></button>
+                <div data-netlify-recaptcha="true"></div>
+                <button type="submit" class="button form-send">Submit now! <i class="fa fa-long-arrow-right"></i></button>
                 <div class="thanks-lay">
                     <div class="thanks-lay-helper"> </div>
                     <div class="thanks-lay-content">
@@ -125,8 +128,8 @@
             <div class="content">
                 <i class="fa fa-paper-plane-o content-icon"></i>
                 <h2>Schedule a Call</h2>
-                <p>Nulla vehicula fermentum nulla, a lobortis nisl vestibulum vel. Phasellus eget velit at.</p>
-                <p><strong>Call us:</strong><br /> <a href="#">10000001</a></p>
+                <!-- <p>Nulla vehicula fermentum nulla, a lobortis nisl vestibulum vel. Phasellus eget velit at.</p> -->
+                <!-- <p><strong>Call us:</strong><br /> <a href="#">10000001</a></p> -->
                 <p><strong>Send an email:</strong><br /> <a href="mailto:info@talk2sumodhee.com">info@talk2sumodhee.com</a></p>
             </div>
         </div>
@@ -353,7 +356,7 @@
 
                 <div class="column">
                     <h3>Contact</h3>
-                    <p><a href="tel:10000001">10000001</a></p>
+                    <!-- <p><a href="tel:10000001">10000001</a></p> -->
                     <p><a href="mailto:info@talk2sumodhee.com">info@talk2sumodhee.com</a></p>
                     <p>Notting Hill Gate<br /> London, UK</p>
                 </div>
@@ -361,7 +364,7 @@
 
                 <div class="column">
                     <ul class="social-media">
-                        <li><a href="https://www.facebook.com/talk2sumodhee" class="social-icon"><i class="fa fa-facebook-square"></i></a></li>
+                        <li><a href="https://www.facebook.com/Talk-to-Sumodhee-104044067842220" class="social-icon"><i class="fa fa-facebook-square"></i></a></li>
                         <li><a href="https://www.linkedin.com/in/dr-dayyanah-sumodhee/" class="social-icon"><i class="fa fa-linkedin-square"></i></a></li>
                         <li><a href="https://twitter.com/talk2sumodhee" class="social-icon"><i class="fa fa-twitter-square"></i></a></li>
                     </ul>

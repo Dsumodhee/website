@@ -2,15 +2,15 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout : default
-title: Panic Attack
+title: Panic Attacks
 ---
     <div class="wrapper">
 
         <section class="image-header">
-            <img src="{{site.baseurl}}/assets/img/change_direction-small.jpg" alt="Image" class="image-data-for-parent" />
+            <img src="{{site.baseurl}}/assets/img/panic_attacks-small.jpg" alt="Image" class="image-data-for-parent" />
             <div class="content">
                 <div class="center">
-                    <h3>{{title}}</h3>
+                    <h3>{{page.title}}</h3>
                 </div>
             </div>
         </section>
@@ -21,7 +21,7 @@ title: Panic Attack
             <div class="tabs-selectors">
                 <div class="center">
                     <ul class="tabs-selectors">
-                        <li class="active" data-tab-id="general-informations">{{title}}</li>
+                        <li class="active" data-tab-id="general-informations">{{page.title}}</li>
                         <li data-tab-id="important-documents">Important documents</li>
                     </ul>
                 </div>
@@ -72,7 +72,9 @@ Symptoms include:
     <li>trembling</li>
 </ul>
 
+<p>
 Cognitive behavioural therapy can help change a panicky mindset to one of increased calmness.
+</p>
 
 
                             {% include get_in_touch_popup.html %}

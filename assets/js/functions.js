@@ -1172,6 +1172,16 @@ $( document ).ready( function() {
             var thanksLay = form.children( '.thanks-lay' );
             thanksLay.fadeIn( 300 );
 
+            $("#contact_form").submit(function(e) {
+              e.preventDefault();
+
+              var $form = $(this);
+              $.post($form.attr("action"), $form.serialize()).then(function() {
+                alert("Thank you!");
+              });
+            });
+
+
             $.ajax({ url: 'assets/_php/submit.php',
                      data: { 'fields': fields, 'options': formOptions },
                      type: 'post',
@@ -1184,15 +1194,6 @@ $( document ).ready( function() {
 
                      }});
 
-
-            $("#my-form").submit(function(e) {
-              e.preventDefault();
-
-              var $form = $(this);
-              $.post($form.attr("action"), $form.serialize()).then(function() {
-                alert("Thank you!");
-              });
-            });
 
         }
 
