@@ -17,8 +17,8 @@ title: Dr Dayyanah Sumodhee
 author: Dr Dayyanah Sumodhee
 profession: Chartered Health Psychologist
 qualifications: BSci, MA, MSci, D. Psy
-email: info@dsumodhee.com
-website: www.dsumodhee.com
+email: info@talk2sumodhee.com
+website: www.talk2sumodhee.com
 address: Notting Hill Gate
 city: London
 country: UK
@@ -27,10 +27,11 @@ description: >- # this means to ignore newlines until "baseurl:"
     Professional website of Dr Dayyanah Sumodhee, Chartered Psychologist
   # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter: https://twitter.com/dsumodhee
+twitter: https://twitter.com/talk2sumodhee
 github:  dsumodhee
 linkedin: https://www.linkedin.com/in/dr-dayyanah-sumodhee/
-facebook: https://www.facebook.com/dsumodhee
+facebook: https://www.facebook.com/Talk-to-Sumodhee-104044067842220
+instagram: https://www.instagram.com/talk2sumodhee
 
 # Build settings
 markdown: kramdown

@@ -21,13 +21,11 @@ title: Get in touch
         -->
 
         <section class="double-content">
-
             <i class="fa fa-envelope-o background-icon"></i>
-
             <div class="center">
                 <div class="left">
                     <div class="contact-vcard">
-                        <h2 class="contact-vcard-phone-number"><a href="tel:{{site.phone}}">{{site.phone}}</a></h2>
+                        <!-- <h2 class="contact-vcard-phone-number"><a href="tel:{{site.phone}}">{{site.phone}}</a></h2> -->
                         <h3><strong>Talk To Sumodhee</strong></h3>
                         <p>{{site.address}}<br /> {{site.city}}, {{site.country}}</p>
                         <p><strong>{{site.author}}, {{site.qualifications}}</strong></p>
@@ -37,7 +35,7 @@ title: Get in touch
                 </div>
 
                 <div class="right">
-                    <form method="post" class="form form-box" data-title="New contact form from your website" data-client-name-field="Name" data-client-email-field="E-mail">
+                    <form action="post" data-netlify="true" class="form form-box" data-title="New contact form from your website" data-client-name-field="Name" data-client-email-field="E-mail">
                         <input type="text" name="Name" class="form-field" placeholder="Full name..." />
                         <input type="text" name="E-mail" class="form-field half-width half-width-left" placeholder="E-mail address..." />
                         <input type="text" name="Phone number" class="form-field half-width" placeholder="Phone number..." data-required="no" />
@@ -46,6 +44,11 @@ title: Get in touch
                             <span class="checkbox"></span>
                             <p>I agree with <a href="#">Terms and Conditions</a> and I've read and agree <a href="#">Privacy Policy</a>.</p>
                         </div>
+
+                        <div class="field">
+                        <div data-netlify-recaptcha="true"></div>
+                        </div>
+
                         <button type="button" class="button form-send">Submit now! <i class="fa fa-long-arrow-right"></i></button>
 
                         <div class="thanks-lay">
