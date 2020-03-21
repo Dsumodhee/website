@@ -1172,7 +1172,7 @@ $( document ).ready( function() {
             var thanksLay = form.children( '.thanks-lay' );
             thanksLay.fadeIn( 300 );
 
-            $.ajax({ url: '_assets/_php/submit.php',
+            $.ajax({ url: 'assets/_php/submit.php',
                      data: { 'fields': fields, 'options': formOptions },
                      type: 'post',
                      success: function( output ) {

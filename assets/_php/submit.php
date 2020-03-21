@@ -12,13 +12,13 @@
     error_reporting( E_ALL );
 
     # put your name here
-    define( 'OWNER_NAME', 'Martanian' );
+    define( 'OWNER_NAME', 'Talk2Sumodhee' );
 
     # put your email address here
-    define( 'OWNER_EMAIL', 'support@martanian.com' );
+    define( 'OWNER_EMAIL', 'info@talk2sumodhee.com' );
 
     # put your do-not-reply email address here
-    define( 'DO_NOT_REPLY_EMAIL', 'no-reply@martanian.com' );
+    define( 'DO_NOT_REPLY_EMAIL', 'no-reply@talk2sumodhee.com' );
 
    /**
     *
