@@ -11,7 +11,7 @@ title: Get in touch
                 <i class="fa fa-map-signs heading-icon"></i>
                 <h1>Do the first step today</h1>
                 <p>
-                If you would like further information or have any questions, please do not hesitate to get in touch or complete the form below and I will contact you.
+                If you would like further information or have any questions, please do not hesitate to get in touch by completing the form below or sending me an email, and I will contact you.
                 </p>
             </div>
         </section>
@@ -27,13 +27,12 @@ title: Get in touch
                     <div class="contact-vcard">
                         <!-- <h2 class="contact-vcard-phone-number"><a href="tel:{{site.phone}}">{{site.phone}}</a></h2> -->
                         <h3><strong>Talk To Sumodhee</strong></h3>
-                        <p>{{site.address}}<br /> {{site.city}}, {{site.country}}</p>
+                        <!-- <p>{{site.address}}<br /> {{site.city}}, {{site.country}}</p> -->
                         <p><strong>{{site.author}}, {{site.qualifications}}</strong></p>
                         <p><a href="mail:{{site.email}}">{{site.email}}</a><br/>
                         <a href="{{site.website}}">{{site.website}}</a></p>
                     </div>
                 </div>
-
                 <div class="right">
                     <form name="contact_form" method="POST" data-netlify="true" class="form form-box">
                     <!- data-title="New contact form from your website" data-client-name-field="Name" data-client-email-field="E-mail"> -->
@@ -41,17 +40,15 @@ title: Get in touch
                         <input type="text" name="E-mail" class="form-field half-width half-width-left" placeholder="E-mail address..." />
                         <input type="text" name="Phone number" class="form-field half-width" placeholder="Phone number..." data-required="no" />
                         <textarea name="Message" rows="5" cols="5" placeholder="Message..." class="form-field"></textarea>
-                        <!-- <div class="form-field checkbox-box" data-checked="no" data-field-name="I agree with Terms and Conditions and I've read and agree Privacy Policy" data-value-if-checked="Yes"> -->
-                            <span class="checkbox"></span>
-                            <p>I agree with <a href="#">Terms and Conditions</a> and I've read and agree <a href="#">Privacy Policy</a>.</p>
+                        <div class="form-field checkbox-box">
+                        <!--
+                        <span class="checkbox"></span>
+                        <p>I agree with <a href="#">Terms and Conditions</a>
+                        and I've read and agree <a href="#">Privacy Policy</a>.</p>
+                        -->
                         </div>
-
-                        <div class="field">
-                        <div data-netlify-recaptcha="true"></div>
-                        </div>
-
+                        <div class="field"> <div data-netlify-recaptcha="true"></div> </div>
                         <button type="submit" class="button click touchstart">Submit now! <i class="fa fa-long-arrow-right"></i></button>
-
                         <div class="thanks-lay">
                             <div class="thanks-lay-helper"> </div>
                             <div class="thanks-lay-content">
@@ -76,7 +73,6 @@ title: Get in touch
             </div>
         </section>
 
-        <!-- -->
 
         {% include call_to_action.html %}
 
