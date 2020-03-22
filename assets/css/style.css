@@ -2221,7 +2221,7 @@ header .bottom {
 }
 
 header .logo {
-    width: 250px;
+    max-width: 250px;
     display: inline-block;
     vertical-align: middle;
 }
@@ -2233,7 +2233,7 @@ header .logo img {
 }
 
 footer .logo {
-    width: 350px;
+    max-width: 350px;
     display: inline-block;
     vertical-align: middle;
     float: right;
