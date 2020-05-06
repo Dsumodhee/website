@@ -7,7 +7,7 @@ Je suis titulaire d'un doctorat professionnel en psychologie de la santé. Haute
 Dans le contexte de ma carrière de chercheuse, je mène des recherches polyvalentes, quantitatives et qualitatives dans le domaine de la santé et du bien-être (cf. liste de publications ci-dessous). Je transforme les résultats de ces recherches en solutions utiles et innovatrices pour le domaine de la santé et des soins. J'ai pour ambition d'identifier les lacunes et les faiblesses de nos services de santé et de proposer de nouvelles stratégies pour y remédier. Je présente mon travail lors de conférences et, à l'aide de publications scientifiques, je le rends accessible à un plus grand public. Chaque année, je participe à des conférences et des séminaires dans un cadre de formation professionnelle continue. 
 
 
-Je propose des thérapies psychologiques en anglais et en français.
+## Je propose des thérapies psychologiques en anglais et en français.
 
 
-Avez-vous des questions?
+### Avez-vous des questions?
