@@ -1,2 +1,1 @@
-
-Je dispose d'expérience approfondie dans l'enseignement de...
+Je dispose d'une expérience approfondie dans l'enseignement d'étudiants de licence, de maîtrise et de doctorants, ainsi que dans l'encadrement de professionnels issus, parmi d'autres, du milieu de la santé. Je suis titulaire de plusieurs diplômes de formations accréditées et dispose des qualifications nécessaires afin d'assurer l'encadrement de la supervision clinique et académique. J'offre un environnement encourageant qui promeut la réflexion et je propose une variété de modèles de supervision faits sur mesure pour répondre du mieux possible à vos besoins.
