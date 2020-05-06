@@ -1,2 +1,1 @@
-
-Une crise d'angoisse (ou un trouble anxieux) est un sentiment d'angoisse, de stress et de panique qui survient régulièrement et de manière imprévisible, souvent sans cause apparente. La thérapie cognitive peut y remédier...
+La douleur peut être un vrai handicap. Une prise en charge vous aidera à mieux gérer ces circonstances et facilitera votre rétablissement.
