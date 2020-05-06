@@ -16,7 +16,7 @@ CBT, and mindfulness.
 As part of my research career, I conduct multi-strand quantitative and qualitative research specialising in health and wellbeing (publications listed below). I translate health and psychological research findings into insightful and innovative healthcare solutions. I aspire to identify gaps and weaknesses in health services to offer insightful strategies to satisfy unmet needs. I disseminate my work through conference presentations and paper publications. Every year I present and participate in conferences and seminars as part of my Continuing Professional Development.
 
 
-I offer psychological treatments in English and French.
+## I offer psychological treatments in English and French.
 
 
-Do you have any questions?
+### Do you have any questions?
