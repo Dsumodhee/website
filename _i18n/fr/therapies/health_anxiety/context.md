@@ -1,0 +1,3 @@
+
+Nous sommes tous atteints d'angoisse à certains moments de notre vie, que ce soit à l'idée de faire un exposé, de se soumettre à un examen médical ou de passer un entretien d'embauche. Si vous souffrez d'un trouble anxieux généralisé, vous avez un grand nombre d'inquiétudes au quotidien. Le trouble anxieux généralisé est une affection de longue durée qui provoque une angoisse vis-à-vis d'une multitude de situations et de sujets, plutôt qu'une angoisse ciblée. Il peut avoir un lourd impact sur votre quotidien, mais plusieurs traitements sont disponibles pour soulager vos symptômes. Une thérapie cognitivo-comportementale peut vous aider à passer d'un système de pensée anxieux à un état d'esprit empreint de positivité.
+

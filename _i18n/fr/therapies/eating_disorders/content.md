@@ -1,0 +1,2 @@
+
+Les troubles de l'alimentation peuvent revêtir plusieurs aspects, tels que la sous-alimentation, les excès alimentaires ou un rapport obsessionnel au poids et à la silhouette. L'anorexie mentale et la boulimie sont parmi les troubles de l'alimentation les plus fréquents. Si vous aimeriez consulter quelqu'un à propos des traitements disponibles pour les troubles de l'alimentation, je vous invite à prendre rendez-vous en cliquant sur le lien ci-dessous.

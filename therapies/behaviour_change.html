@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout : default
 lang: en
-title: Behaviour Change
+title: therapies.behaviour_change
 ---
     <div class="wrapper">
 
@@ -11,7 +11,7 @@ title: Behaviour Change
             <img src="{{site.baseurl}}/assets/img/change_direction-small.jpg" alt="Image" class="image-data-for-parent" />
             <div class="content">
                 <div class="center">
-                    <h3>{{page.title}}</h3>
+                    <h3>{% t page.title %}</h3>
                 </div>
             </div>
         </section>
@@ -22,7 +22,7 @@ title: Behaviour Change
             <div class="tabs-selectors">
                 <div class="center">
                     <ul class="tabs-selectors">
-                        <li class="active" data-tab-id="general-informations">{{title}}</li>
+                        <li class="active" data-tab-id="general-informations">{% t page.title %}</li>
                         <li data-tab-id="important-documents">Important documents</li>
                     </ul>
                 </div>
@@ -34,7 +34,7 @@ title: Behaviour Change
                 <article data-tab-id="general-informations">
                     <div class="heading">
                         <div class="left">
-                            <h1>Behaviour<br /> Change</h1>
+                            <h1> {% t page.title %} </h1>
                         </div>
 
                         <div class="right">
@@ -58,18 +58,10 @@ title: Behaviour Change
                     -->
 
 
-                    <p>
-Whether it is quitting smoking, eating healthily, taking up exercise or weight management, changing a behaviour or routine can improve one’s well being. However, changing behaviour practised over years can be challenging.
-                    </p>
+<p>
+                    {% tf therapies/behaviour_change/content.md %}
 
-                    <p>
-I design behaviour change interventions with the most up-to-date findings in behaviour change science with theories, behaviour change techniques, motivational interviewing and problem solving techniques to help to adopt health-enhancing behaviours or stop health-damaging ones. I tailor each intervention according to my client’s needs.
-                    </p>
-
-                    <p>
-If you would like to talk to someone about your behaviour change, please get in touch with me by booking online by clicking below.
-
-                            {% include get_in_touch_popup.html %}
+                    {% include get_in_touch_popup.html %}
 </p>
 
                 <!-- {% include doctors.html %} -->

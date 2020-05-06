@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout : default
 lang: en
-title: Stress
+title: therapies.stress
 ---
     <div class="wrapper">
 
@@ -11,7 +11,7 @@ title: Stress
             <img src="{{site.baseurl}}/assets/img/a-stressful-woman-9RJP2AU-small.jpg" alt="Image" class="image-data-for-parent" />
             <div class="content">
                 <div class="center">
-                    <h3>{{page.title}}</h3>
+                    <h3>{% t page.title %}</h3>
                 </div>
             </div>
         </section>
@@ -34,7 +34,7 @@ title: Stress
                 <article data-tab-id="general-informations">
                     <div class="heading">
                         <div class="left">
-                            <h1>Stress</h1>
+                            <h1>{% t page.title %}</h1>
                         </div>
 
                         <div class="right">
@@ -58,19 +58,7 @@ title: Stress
                     -->
 
 
-                    <p>
-
-Disturbing statistics have found that 59% of British adults claim their life is more stressful today than it was five years ago, while five million people in the UK are ‘very’ or ‘extremely’ stressed through work.
-The Health and Safety Executive also estimates that 9.9m working days were lost due to stress, depression and anxiety in 2014-15.
-
-<p>
-I offer treatment and therapy options for those who feel they’re having trouble coping with the stresses and strains of life.
-With psychological therapy you can get help by identify sources of stress and inappropriate coping mechanisms and learn new strategies for building stress resilience.
-</p>
-
-<p>
-If you would like to talk to someone about available treatments for stress, please get in touch with me by booking online by clicking below.
-</p>
+                    {% tf therapies/stress/context.md %}
 
 
 

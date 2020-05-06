@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout : default
 lang: en
-title: Health anxiety
+title: therapies.health_anxiety
 ---
     <div class="wrapper">
 
@@ -11,7 +11,7 @@ title: Health anxiety
             <img src="{{site.baseurl}}/assets/img/anxiety-small.jpg" alt="Image" class="image-data-for-parent" />
             <div class="content">
                 <div class="center">
-                    <h3>{{page.title}}</h3>
+                    <h3>{% t page.title %}</h3>
                 </div>
             </div>
         </section>
@@ -22,7 +22,7 @@ title: Health anxiety
             <div class="tabs-selectors">
                 <div class="center">
                     <ul class="tabs-selectors">
-                        <li class="active" data-tab-id="general-informations">{{page.title}}</li>
+                        <li class="active" data-tab-id="general-informations">{% t page.title %}</li>
                         <li data-tab-id="important-documents">Important documents</li>
                     </ul>
                 </div>
@@ -34,7 +34,7 @@ title: Health anxiety
                 <article data-tab-id="general-informations">
                     <div class="heading">
                         <div class="left">
-                            <h1>Health anxiety</h1>
+                            <h1>{% t page.title %}</h1>
                         </div>
 
                         <div class="right">
@@ -44,22 +44,9 @@ title: Health anxiety
 
                     </div>
 
-                    <!--
-                    <div class="service-details">
-                        <p>
-                            <strong>Doctor:</strong> Martha Wayne, Psy. D.
-                            <span class="divider"></span>
-                            <strong>When:</strong> every thursday
-                            <span class="divider"></span>
-                            <strong>Where:</strong> 1234 Example, Los Angeles, CA 98765
-                        </p>
-                    </div>
-                    <p>
-                    -->
-
 
                     <p>
-Everyone has feelings of anxiety at some point in their life. For example, you may feel worried and anxious about sitting an exam, or having a medical test or a job interview. If you have a generalized anxiety disorder, you tend to worry about a number of things in your daily life. Generalised anxiety disorder is a long-term condition that causes you to feel anxious about a wide range of situations and issues, rather than one specific event. It can have a significant effect on your daily life, but several different treatments are available that can ease your symptoms. Cognitive behavioural therapy can help change an anxious mindset to one of increased positivity.
+                    {% tf therapies/health_anxiety/context.md %}
 
                             {% include get_in_touch_popup.html %}
                     </p>
