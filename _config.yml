@@ -49,3 +49,11 @@ markdown: kramdown
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+#
+#
+languages: ["en", "fr"]
+
+exclude_from_localizations: ["javascript", "images", "css"]
+
+plugins:
+  - jekyll-multiple-languages-plugin

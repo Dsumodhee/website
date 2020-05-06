@@ -9,13 +9,23 @@
                     <div class="element element-languages">
                         <span class="container">
                             <i class="fa fa-globe"></i>
-                            <span class="current-language">English</span>
+                            {% if site.lang == "en" %}
+                               <span class="current-language">{% t langs.en %}</span>
+                            {% elsif site.lang == "fr" %}
+                               <span class="current-language">{% t langs.fr %}</span>
+                            {% endif %}
                         </span>
-                        <!-- 
                         <ul class="available-languages animated animated-speed fadeInDown">
-                            <li><a href="#">French</a></li>
+                            {% if site.lang == "en" %}
+                                {% capture link1 %}{{ site.baseurl_root }}/fr{{ page.url}}{% endcapture %}
+                                <li><a href="{{ link1 }}">{% t langs.fr %}</a></li>
+                                {% capture base_url %} {{ site.baseurl_root }} {% endcapture %}
+                            {% elsif site.lang == "fr" %}
+                                {% capture link2 %}{{ site.baseurl_root }}{{ page.url}}{% endcapture %}
+                                <li><a href="{{ link2 }}">{% t langs.en %}</a></li>
+                                {% capture base_url %} {{ site.baseurl_root }}/fr{% endcapture %}
+                            {% endif %}
                         </ul>
-                        -->
                     </div>
                     <div class="element element-social-icons">
                         <a href="{{site.facebook}}"><i class="fa fa-facebook"></i></a>
@@ -34,34 +44,34 @@
                 <nav class="top-menu">
                     <ul class="menu">
                         <li
-                        {% if page.title=="Home" %}
+                         {% if page.name=="index.html" %}
                             class="active"
                         {% endif %}
-                            ><a href="/index.html">Home</a></li>
+                            ><a href="{{ base_url }}/index.html">{% t title.home %}</a></li>
 
                         <li
-                        {% if page.title=="Therapies" %}
+                        {% if page.name=="therapies.html" %}
                             class="active"
                         {% endif %}
-                            ><a href="/therapies.html">Therapies</a></li>
+                            ><a href="{{ base_url }}/therapies.html">{% t title.therapies %}</a></li>
 
                         <li
-                        {% if page.title=="Supervision" %}
+                        {% if page.name=="supervision.html" %}
                             class="active"
                         {% endif %}
-                            ><a href="/supervision.html">Supervision</a></li>
+                            ><a href="{{ base_url }}/supervision.html">{% t title.supervision %}</a></li>
 
                         <li
-                        {% if page.title=="About me" %}
+                        {% if page.name=="about_me.html" %}
                             class="active"
                         {% endif %}
-                            ><a href="/about-me.html">About me</a></li>
+                        ><a href="{{ base_url }}/about-me.html">{% t title.about_me %}</a></li>
 
                         <li
-                        {% if page.title=="Get in touch" %}
+                        {% if page.name=="contact.html" %}
                             class="active"
                         {% endif %}
-                            ><a href="/contact.html">Get in touch</a></li>
+                        ><a href="{{ base_url }}/contact.html">{% t title.get_in_touch %}</a></li>
                     </ul>
                 </nav>
                 <div class="responsive-menu-button"><i class="fa fa-bars"></i></div>

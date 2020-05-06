@@ -1,0 +1,34 @@
+langs:
+    en: English
+    fr: French
+
+title:
+    home: Home
+    therapies: Therapies
+    supervision: Supervision
+    about_me: About Me
+    get_in_touch: Get in touch
+
+global:
+    do_first_steps_today: Do the first step today!
+    do_first_step_today: Do the first step today!
+    get_in_touch: Get in Touch!
+
+index:
+    title: Highly Qualified Health Psychologist
+    header_slider_title: Teaching and Supervision
+    header_slider_title2: Psychological care and support 
+    get_in_touch: Get in Touch!
+    browse_therapies: Browse therapies
+    friendly_environment: Friendly environment
+    for_all_your_thoughts: for all of your thoughts
+
+therapies:
+    quit_smoking: Quitting  Smoking
+    behaviour_change: Behaviour Change
+    health_anxiety: Health Anxiety
+    eating_disorders: Eating Disorders
+    panic_attack: Panick Attack
+    pain: Pain
+    stress: Stress
+

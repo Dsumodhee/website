@@ -1,0 +1,34 @@
+langs:
+    en: Anglais
+    fr: Français
+
+title:
+    home: Acceuil
+    therapies: Thérapies
+    supervision: Supervision
+    about_me: Mon Profil
+    get_in_touch: Contactez moi
+
+global:
+    do_first_steps_today: Faites le premier pas dès aujourd'hui!
+    do_first_step_today: Faites le premier pas dès aujourd'hui!
+    get_in_touch: N'hésitez pas à me contacter!
+
+index:
+    title: Psychologue de la Santé hautement qualifiée
+    header_slider_title: Apprentissage et Supervision
+    header_slider_title2: Support psychologique
+    get_in_touch: N'hésitez pas à me contacter!
+    browse_therapies: Consultez nos thérapies
+    friendly_environment: Confiez-vous à moi 
+    for_all_your_thoughts: dans une ambiance amicale
+
+therapies:
+    quit_smoking: Arrêter la cigarette
+    behaviour_change: Changement de comportement
+    health_anxiety: Anxiété liée à la santé
+    eating_disorders: Les troubles de l'alimentation
+    panic_attack: Crise d'angoisse
+    pain: Douleur
+    stress: Stress
+

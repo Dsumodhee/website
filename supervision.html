@@ -2,7 +2,9 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout : default
-title: Supervision
+lang: en
+title: title.supervision
+name: "supervision"
 ---
     <div class="wrapper">
 
@@ -10,7 +12,7 @@ title: Supervision
             <img src="{{site.baseurl}}/assets/img/cup-of-coffee-and-candle-3Q58YHF-small.jpg" alt="Image" class="image-data-for-parent" />
             <div class="content">
                 <div class="center">
-                    <h3>{{page.title}}</h3>
+                    <h3>{% t page.title %}</h3>
                 </div>
             </div>
         </section>
@@ -33,7 +35,7 @@ title: Supervision
                 <article data-tab-id="general-informations">
                     <div class="heading">
                         <div class="left">
-                            <h1>{{page.title}}</h1>
+                            <h1>{% t page.title %}</h1>
                         </div>
 
                         <div class="right">
@@ -42,11 +44,9 @@ title: Supervision
 
                     </div>
 
+                    {% tf supervision/content.md %}
+
                     <p>
-
-I have in-depth experience in delivering undergraduate and postgraduate teaching sessions as well as delivering training to healthcare and non-healthcare professionals. I have undertaken accredited training and am able to provide supervision for clinical supervision or generic needs. I offer a supportive environment to encourage reflection and offer a range of supervision models to best support you and your needs.
-
-
                             {% include get_in_touch_popup.html %}
                     </p>
 

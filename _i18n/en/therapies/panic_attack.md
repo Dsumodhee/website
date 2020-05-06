@@ -1,0 +1,3 @@
+
+A panic attack (or panic disorder) is a feeling of anxiety, stress and panic, which occur regularly and at any time, often for no apparent reason. Cognitive behaviour therapy can help...
+

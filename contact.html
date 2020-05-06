@@ -2,17 +2,17 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
-title: Get in touch
+lang: en
+title: title.get_in_touch
+name: "get_in_touch"
 ---
     <div class="wrapper">
         <section class="contact-heading">
             <i class="fa fa-map-o background-icon"></i>
             <div class="center">
                 <i class="fa fa-map-signs heading-icon"></i>
-                <h1>Do the first step today</h1>
-                <p>
-                If you would like further information or have any questions, please do not hesitate to get in touch by completing the form below or sending me an email, and I will contact you.
-                </p>
+                <h1>{% t global.do_first_step_today %}</h1>
+                        {% tf contact/context.md %}
             </div>
         </section>
 
