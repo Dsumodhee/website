@@ -2,6 +2,7 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
+lang: en
 title: title.about_me
 name: "about_me"
 ---
@@ -34,8 +35,8 @@ name: "about_me"
                             <h1>{{site.author}}</h1>
                         </div>
                         <div class="right">
-                            <p class="price">Do you have any questions?</p>
-                            <p><a href="/contact.html" class="button">Contact me</a></p>
+                            <p class="price"> {% t contact.questions %} </p>
+                            <p><a href="{{site.baseurl}}/contact.html" class="button">{% t contact.contact_me %}</a></p>
                         </div>
                     </div>
                 

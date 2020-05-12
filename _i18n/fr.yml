@@ -5,9 +5,9 @@ langs:
 title:
     home: Acceuil
     therapies: Thérapies
-    supervision: Supervision
+    supervision: Encadrement et Supervision
     about_me: Mon Profil
-    get_in_touch: Contactez moi
+    get_in_touch: Contactez-moi
 
 global:
     do_first_steps_today: Faites le premier pas dès aujourd'hui!
@@ -15,9 +15,8 @@ global:
     get_in_touch: N'hésitez pas à me contacter!
 
 index:
-    title: Psychologue de la Santé hautement qualifiée
-    header_slider_title: Apprentissage et Supervision
-    header_slider_title2: Support psychologique
+    header_slider_title: Encadrement et Supervision
+    header_slider_title2: Soutien Psychologique
     get_in_touch: N'hésitez pas à me contacter!
     browse_therapies: Consultez nos thérapies
     friendly_environment: Confiez-vous à moi 
@@ -32,3 +31,9 @@ therapies:
     pain: Douleur
     stress: Stress
 
+contact:
+    questions: Avez-vous des questions?
+    contact_me: Contactez-moi
+
+footer:
+    other_pages: Autres pages

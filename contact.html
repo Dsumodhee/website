@@ -12,7 +12,7 @@ name: "get_in_touch"
             <div class="center">
                 <i class="fa fa-map-signs heading-icon"></i>
                 <h1>{% t global.do_first_step_today %}</h1>
-                        {% tf contact/context.md %}
+                {% tf contact/context.md %}
             </div>
         </section>
 
@@ -30,22 +30,26 @@ name: "get_in_touch"
                         <!-- <p>{{site.address}}<br /> {{site.city}}, {{site.country}}</p> -->
                         <p><strong>{{site.author}}, {{site.qualifications}}</strong></p>
                         <p><a href="mail:{{site.email}}">{{site.email}}</a><br/></p>
-                        <p>{{site.phone}}</p>
+                        <p><a href="tel:{{site.phone}}">{{site.phone}}</a></p>
                     </div>
                 </div>
                 <div class="right">
                     <form name="contact_form" method="POST" data-netlify="true" class="form form-box">
-                    <!- data-title="New contact form from your website" data-client-name-field="Name" data-client-email-field="E-mail"> -->
+
+                        <!- data-title="New contact form from your website" data-client-name-field="Name" data-client-email-field="E-mail"> -->
+
                         <input type="text" name="Name" class="form-field" placeholder="Full name..." />
                         <input type="text" name="E-mail" class="form-field half-width half-width-left" placeholder="E-mail address..." />
                         <input type="text" name="Phone number" class="form-field half-width" placeholder="Phone number..." data-required="no" />
                         <textarea name="Message" rows="5" cols="5" placeholder="Message..." class="form-field"></textarea>
                         <div class="form-field checkbox-box">
+
                         <!--
                         <span class="checkbox"></span>
                         <p>I agree with <a href="#">Terms and Conditions</a>
                         and I've read and agree <a href="#">Privacy Policy</a>.</p>
                         -->
+
                         </div>
                         <div class="field"> <div data-netlify-recaptcha="true"></div> </div>
                         <button type="submit" class="button click touchstart">Submit now! <i class="fa fa-long-arrow-right"></i></button>

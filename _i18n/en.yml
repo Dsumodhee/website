@@ -32,3 +32,9 @@ therapies:
     pain: Pain
     stress: Stress
 
+contact:
+    questions: Do you have any questions?
+    contact_me: Contact me
+
+footer:
+    other_pages: Other pages

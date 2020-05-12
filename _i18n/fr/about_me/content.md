@@ -10,4 +10,3 @@ Dans le contexte de ma carrière de chercheuse, je mène des recherches polyvale
 ## Je propose des thérapies psychologiques en anglais et en français.
 
 
-### Avez-vous des questions?

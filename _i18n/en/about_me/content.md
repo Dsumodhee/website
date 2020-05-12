@@ -19,4 +19,3 @@ As part of my research career, I conduct multi-strand quantitative and qualitati
 ## I offer psychological treatments in English and French.
 
 
-### Do you have any questions?
