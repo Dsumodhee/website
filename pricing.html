@@ -1,0 +1,53 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout : default
+lang: en
+title: title.pricing
+name: "pricing"
+---
+    <div class="wrapper">
+
+        <section class="image-header">
+            <img src="{{site.baseurl}}/assets/img/cup-of-coffee-and-candle-3Q58YHF-small.jpg" alt="Image" class="image-data-for-parent" />
+            <div class="content">
+                <div class="center">
+                    <h3>{% t page.title %}</h3>
+                </div>
+            </div>
+        </section>
+
+            <div class="center tabs-contents">
+
+                <article data-tab-id="general-informations">
+                    <div class="heading">
+                        <div class="left">
+                            <h1>{% t page.title %}</h1>
+                        </div>
+
+                        <div class="right">
+                            {% include get_in_touch_popup.html %}
+                        </div>
+
+                    </div>
+
+
+                    <p>
+                        {% tf pricing/content.md %}
+                    </p>
+
+
+                </article>
+
+            </div>
+
+        </section>
+
+                {% include call_to_action.html %}
+
+
+
+
+
+
+

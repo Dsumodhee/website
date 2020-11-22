@@ -64,6 +64,11 @@
                         {% endif %}
                         ><a href="{{ base_url }}/about-me.html">{% t title.about_me %}</a></li>
                         <li
+                        {% if page.name=="pricing.html" %}
+                            class="active"
+                        {% endif %}
+                        ><a href="{{ base_url }}/pricing.html">{% t title.pricing %}</a></li>
+                        <li
                         {% if page.name=="contact.html" %}
                             class="active"
                         {% endif %}
