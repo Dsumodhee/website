@@ -1,4 +1,3 @@
-# Douleur
 
 Si votre douleur dure au-delà de 3 mois, elle est considérée comme chronique. Celle-ci est fréquente et peut être causée par une poussée d'arthrose ou une lésion nerveuse, elle peut survenir suite à une blessure ou suite à une affection dont on s'est souvent déjà remis. Parfois celle-ci se développe au fil du temps après une blessure ou une opération; d'autres fois elle semble se développer sans raison particulière.
 

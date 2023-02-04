@@ -1,4 +1,3 @@
-# Pain 
 
 If you have had pain for 3 months or more, then it is classified as chronic pain. This pain is common and can be caused by conditions such as arthritis, nerve damage, the result of an injury or problem that has often healed. Sometimes it develops slowly over time as a result of an injury or surgery; sometimes it seems to develop for no particular reason.
 
